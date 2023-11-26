@@ -51,6 +51,17 @@
 * Started gh on my laptop
 * ![github cli][setup6]
 
+## Setup drawio
+* Downloaded the executable from 
+* Saved it to my local drive
+
+
+# Downloads
+* **Drawio**
+  * https://github.com/jgraph/drawio-desktop/releases/download/v22.1.2/draw.io-22.1.2-windows-no-installer.exe
+* **GitHub CLI**
+  * https://github.com/cli/cli/releases/download/v2.39.1/gh_2.39.1_windows_386.msi
+
 # References
 * How can I export GitHub issues to Excel? (2016, December 28). Stack Overflow. 
   * Retrieved November 25, 2023, from 
@@ -58,6 +69,9 @@
 * Managing your personal access tokens. (n.d.). GitHub Docs. 
   * Retrieved November 25, 2023, from 
   * https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic
+* (n.d.). draw.io. 
+  * Retrieved November 26, 2023, from 
+  * https://www.drawio.com/
 
 [issue 4]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/4
 [issue 5]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/5
