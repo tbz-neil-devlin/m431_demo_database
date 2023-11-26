@@ -67,8 +67,8 @@ I laid out 6 simple milestones
 [plan3]: ../02_resources/images/plan-tasklist-01.JPG
 [plan4]: ../02_resources/images/plan-tasklist-02.JPG
 [plan5]: ../02_resources/images/plan-tasklist-02.JPG
-[plan6]: ../02_resources/images/plan-gantt-06.JPG
+[plan6]: ../02_resources/images/plan-gantt-01.JPG
 
 [sketch1]: ../02_resources/images/analyze-plan-01.jpeg
-[sketch1]: ../02_resources/images/analyze-plan-02.jpeg
-[sketch1]: ../02_resources/images/analyze-plan-03.jpeg
+[sketch2]: ../02_resources/images/analyze-plan-02.jpeg
+[sketch3]: ../02_resources/images/analyze-plan-03.jpeg
