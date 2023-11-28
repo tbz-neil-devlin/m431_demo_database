@@ -28,7 +28,7 @@
 
 ## Directory structure [issue 4]
 * Made a sletch of how the directory structure should be
-* ![sketch direcories][design1]
+* ![sketch direcories][sketch1]
 
 
 
@@ -81,14 +81,12 @@
   * Retrieved November 28, 2023, 
   * from https://www.tutorialspoint.com/sqlite/sqlite_data_types.htm
 
-
+[design1]: ../02_resources/images/realize-design-database-schema.png
 
 [issue 4]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/4
 [issue 5]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/5
 [issue 6]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/6
 [issue 21]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/21
-
-[design1]: ../02_resources/images/realize-design-database-schema.png
 
 [setup1]: ../02_resources/images/realize-setup-git-clone.JPG
 [setup2]: ../02_resources/images/realize-setup-git-directories-01.JPG
@@ -96,3 +94,5 @@
 [setup4]: ../02_resources/images/realize-setup-git-directories-03.JPG
 [setup5]: ../02_resources/images/realize-setup-git-directories-04.JPG
 [setup6]: ../02_resources/images/realize-setup-github-cli-01.JPG
+
+[sketch1]: ../02_resources/images/realize-design-sketch-directories.JPG
