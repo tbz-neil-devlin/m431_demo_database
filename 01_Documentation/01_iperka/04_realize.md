@@ -23,6 +23,8 @@
   * Prefixed with "T_" 
 * colums
   * All lowercase
+## Database design [issue 21]
+* ![schema][design1]
 
 ## Directory structure [issue 4]
 * Made a sletch of how the directory structure should be
@@ -72,13 +74,22 @@
 * (n.d.). draw.io. 
   * Retrieved November 26, 2023, from 
   * https://www.drawio.com/
+* SQLite - AUTOINCREMENT. (n.d.). Tutorialspoint. 
+  * Retrieved November 28, 2023, 
+  * from https://www.tutorialspoint.com/sqlite/sqlite_using_autoincrement.htm
+* SQLite - Data Type. (n.d.). Tutorialspoint. 
+  * Retrieved November 28, 2023, 
+  * from https://www.tutorialspoint.com/sqlite/sqlite_data_types.htm
+
+
 
 [issue 4]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/4
 [issue 5]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/5
 [issue 6]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/6
-
+[issue 21]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/21
 
 [design1]: ../02_resources/images/realize-design-sketch-directories.jpeg
+
 [setup1]: ../02_resources/images/realize-setup-git-clone.JPG
 [setup2]: ../02_resources/images/realize-setup-git-directories-01.JPG
 [setup3]: ../02_resources/images/realize-setup-git-directories-02.JPG
