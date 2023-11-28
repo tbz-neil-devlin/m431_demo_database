@@ -95,4 +95,4 @@
 [setup5]: ../02_resources/images/realize-setup-git-directories-04.JPG
 [setup6]: ../02_resources/images/realize-setup-github-cli-01.JPG
 
-[sketch1]: ../02_resources/images/realize-design-sketch-directories.JPG
+[sketch1]: ../02_resources/images/realize-design-sketch-directories.jpeg
