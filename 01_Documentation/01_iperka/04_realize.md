@@ -88,7 +88,7 @@
 [issue 6]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/6
 [issue 21]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/21
 
-[design1]: ../02_resources/images/realize-design-sketch-directories.jpeg
+[design1]: ../02_resources/images/realize-design-database-schema.png
 
 [setup1]: ../02_resources/images/realize-setup-git-clone.JPG
 [setup2]: ../02_resources/images/realize-setup-git-directories-01.JPG
