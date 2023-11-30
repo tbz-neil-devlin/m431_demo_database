@@ -23,12 +23,17 @@
   * Prefixed with "T_" 
 * colums
   * All lowercase
-## Database design [issue 21]
-* ![schema][design1]
 
 ## Directory structure [issue 4]
 * Made a sletch of how the directory structure should be
 * ![sketch direcories][sketch1]
+
+## Database design [issue 21]
+* ![schema][design1]
+
+## Flowchart word picker [issue 19]
+* Made a sletch of how the directory structure should be
+* ![Word picker][design2]
 
 
 
@@ -82,10 +87,12 @@
   * from https://www.tutorialspoint.com/sqlite/sqlite_data_types.htm
 
 [design1]: ../02_resources/images/realize-design-database-schema.png
+[design2]: ../02_resources/images/realize-design-flowchart-word-picker.png
 
 [issue 4]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/4
 [issue 5]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/5
 [issue 6]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/6
+[issue 19]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/19
 [issue 21]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/21
 
 [setup1]: ../02_resources/images/realize-setup-git-clone.JPG
