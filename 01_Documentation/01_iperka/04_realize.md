@@ -32,10 +32,10 @@
 * ![schema][design1]
 
 ## Flowchart word picker [issue 19]
-* Flowchart was made with drawio
+* Flowchart was made with drawio  
 ![Word picker][design2]
 ## Flowchart create word database [issue 20]
-* Flowchart was made with drawio
+* Flowchart was made with drawio  
 ![Word picker][design3]
 
 
