@@ -32,10 +32,10 @@
 * ![schema][design1]
 
 ## Flowchart word picker [issue 19]
-* Made a sletch of how the directory structure should be
+* Flowchart was made with drawio
 ![Word picker][design2]
 ## Flowchart create word database [issue 20]
-* Made a sletch of how the directory structure should be
+* Flowchart was made with drawio
 ![Word picker][design3]
 
 
@@ -90,6 +90,7 @@
 
 [design1]: ../02_resources/images/realize-design-database-schema.png
 [design2]: ../02_resources/images/realize-design-flowchart-word-picker.png
+[design3]: ../02_resources/images/realize-design-flowchart-create-word-database.png
 
 [issue 4]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/4
 [issue 5]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/5
