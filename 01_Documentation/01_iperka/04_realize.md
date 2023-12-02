@@ -33,8 +33,10 @@
 
 ## Flowchart word picker [issue 19]
 * Made a sletch of how the directory structure should be
-* ![Word picker][design2]
-
+![Word picker][design2]
+## Flowchart create word database [issue 20]
+* Made a sletch of how the directory structure should be
+![Word picker][design3]
 
 
 # Setup
@@ -93,6 +95,7 @@
 [issue 5]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/5
 [issue 6]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/6
 [issue 19]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/19
+[issue 20]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/20
 [issue 21]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/21
 
 [setup1]: ../02_resources/images/realize-setup-git-clone.JPG
