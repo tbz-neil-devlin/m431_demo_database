@@ -5,10 +5,10 @@
 * Refresh my C skills
 
 ## Requirements for the Product
-* ![requirements][product]
+![requirements][product]
 
 ## Requirements for the Documentation
-* ![requirements][documentation]
+![requirements][documentation]
 
 ## Tools needed
 * **A git commandline editor**
