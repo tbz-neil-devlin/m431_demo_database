@@ -36,8 +36,7 @@
 ![Word picker][design2]
 ## Flowchart create word database [issue 20]
 * Flowchart was made with drawio  
-![Word picker][design3
-## Flowchart create word database [issue 20]
+![Word picker][design3]
 ## Design testcases [issue 7] & [issue 8]
 * I review the requirements that I made for the application
 * based on the review I identified 3 testcases that could be used to test that the requirements had been implemented    
@@ -69,12 +68,20 @@
 * Downloaded the executable from 
 * Saved it to my local drive
 
+## Setup Download & install codeblocks [issue 9]
+* Downloaded the executable from 
+* Saved it to my local drive & pressed execute
+![codeblocks][setup7]
+![codeblocks][setup8]
+![codeblocks][setup9]
 
 # Downloads
 * **Drawio**
   * https://github.com/jgraph/drawio-desktop/releases/download/v22.1.2/draw.io-22.1.2-windows-no-installer.exe
 * **GitHub CLI**
   * https://github.com/cli/cli/releases/download/v2.39.1/gh_2.39.1_windows_386.msi
+* **CodeBlocks**
+  * https://www.fosshub.com/Code-Blocks.html?dwl=codeblocks-20.03mingw-setup.exe#
 
 # References
 * How can I export GitHub issues to Excel? (2016, December 28). Stack Overflow. 
@@ -87,11 +94,15 @@
   * Retrieved November 26, 2023, from 
   * https://www.drawio.com/
 * SQLite - AUTOINCREMENT. (n.d.). Tutorialspoint. 
-  * Retrieved November 28, 2023, 
-  * from https://www.tutorialspoint.com/sqlite/sqlite_using_autoincrement.htm
+  * Retrieved November 28, 2023, from
+  * https://www.tutorialspoint.com/sqlite/sqlite_using_autoincrement.htm
 * SQLite - Data Type. (n.d.). Tutorialspoint. 
-  * Retrieved November 28, 2023, 
-  * from https://www.tutorialspoint.com/sqlite/sqlite_data_types.htm
+  * Retrieved November 28, 2023, from
+  * https://www.tutorialspoint.com/sqlite/sqlite_data_types.htm
+* Install C/GCC Compiler for Windows. (2022, August 3). DigitalOcean. 
+  * Retrieved December 3, 2023, from
+  * https://www.digitalocean.com/community/tutorials/c-compiler-windows-gcc
+
 
 [design1]: ../02_resources/images/realize-design-database-schema.png
 [design2]: ../02_resources/images/realize-design-flowchart-word-picker.png
@@ -104,7 +115,7 @@
 [issue 6]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/6
 [issue 7]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/7
 [issue 8]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/8
-
+[issue 9]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/9
 
 [issue 19]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/19
 [issue 20]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/20
@@ -116,5 +127,8 @@
 [setup4]: ../02_resources/images/realize-setup-git-directories-03.JPG
 [setup5]: ../02_resources/images/realize-setup-git-directories-04.JPG
 [setup6]: ../02_resources/images/realize-setup-github-cli-01.JPG
+[setup7]: ../02_resources/images/realize-setup-codeblocks01.JPG
+[setup8]: ../02_resources/images/realize-setup-codeblocks02.JPG
+[setup9]: ../02_resources/images/realize-setup-codeblocks03.JPG
 
 [sketch1]: ../02_resources/images/realize-design-sketch-directories.jpeg
