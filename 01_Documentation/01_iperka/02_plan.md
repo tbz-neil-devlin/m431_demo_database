@@ -28,7 +28,7 @@ Because my time is quite limited I made a plan of my availability from the start
 * I also decided to use GitHub's "Project" function to manage my assignment
 * In created a GitHum project called
 * I defined 4 fields
-  * *"Start**: The date when a given task can start
+  * **Start**: The date when a given task can start
   * **Due**: The date upon whihc that task should finish
   * **Estimated effort**: The number of hours the task will required
   * **Actual effort**: The number of hours that were actually needed
@@ -51,7 +51,7 @@ I laid out 6 simple milestones
 ![Tasklist][plan3]
 ![Tasklist][plan4]
 
-## Creating a Gantt chartt
+## Creating a Gantt chart
 * Using GitHub's project feature, I was able to create a Gantt chart  
 ![Tasklist][plan6]
 
