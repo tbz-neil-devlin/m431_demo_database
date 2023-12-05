@@ -50,12 +50,12 @@
   * Created the directory structure with mkdir
   * Created empty files with touch
   * Copied some excels & screenshots that I had already prepared into the direcories
-  * Committed my changes & pushed to github
-* ![setup direcories][setup1]
-* ![setup direcories][setup2]
-* ![setup direcories][setup3]
-* ![setup direcories][setup4]
-* ![setup direcories][setup5]
+  * Committed my changes & pushed to github  
+![setup direcories][setup1]
+![setup direcories][setup2]
+![setup direcories][setup3]
+![setup direcories][setup4]
+![setup direcories][setup5]
 
 ## Setup github client
 * Downloaded the esecutable from
@@ -71,9 +71,15 @@
 ## Setup Download & install codeblocks [issue 9]
 * Downloaded the executable from 
 * Saved it to my local drive & pressed execute  
+* Once it finished I need to add its directory to the PATH environment variable. Doing this allows me to execute the binary E.g. gcc.exe without havibg ti specifiy it's directory location.
 ![codeblocks][setup7]
 ![codeblocks][setup8]
 ![codeblocks][setup9]
+![codeblocks][setup10]
+![codeblocks][setup11]
+![codeblocks][setup12]
+![codeblocks][setup13]  
+
 
 # Downloads
 * **Drawio**
@@ -130,5 +136,9 @@
 [setup7]: ../02_resources/images/realize-setup-codeblocks01.JPG
 [setup8]: ../02_resources/images/realize-setup-codeblocks02.JPG
 [setup9]: ../02_resources/images/realize-setup-codeblocks03.JPG
+[setup10]: ../02_resources/images/realize-setup-codeblocks-path-03.JPG
+[setup11]: ../02_resources/images/realize-setup-codeblocks-path-02.JPG
+[setup12]: ../02_resources/images/realize-setup-codeblocks-path-03.JPG
+[setup13]: ../02_resources/images/realize-setup-codeblocks-path-04.JPG
 
 [sketch1]: ../02_resources/images/realize-design-sketch-directories.jpeg
