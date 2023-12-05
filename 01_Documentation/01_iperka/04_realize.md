@@ -70,7 +70,7 @@
 
 ## Setup Download & install codeblocks [issue 9]
 * Downloaded the executable from 
-* Saved it to my local drive & pressed execute
+* Saved it to my local drive & pressed execute  
 ![codeblocks][setup7]
 ![codeblocks][setup8]
 ![codeblocks][setup9]
