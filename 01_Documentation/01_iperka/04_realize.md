@@ -82,7 +82,7 @@
  
 ## Setup Download & install Sqlite [issue 13]
 * Downloaded the executable from 
-* Saved it to my local drive in "/c/local/sqlite" 
+* Saved it to my local drive in "/c/local/sqlite"  
 ![sqlite][setup14]
 ![sqlite][setup15]
 ![sqlite][setup16]
@@ -154,8 +154,8 @@
 [setup11]: ../02_resources/images/realize-setup-codeblocks-path-02.JPG
 [setup12]: ../02_resources/images/realize-setup-codeblocks-path-03.JPG
 [setup13]: ../02_resources/images/realize-setup-codeblocks-path-04.JPG
-[setup13]: ../02_resources/images/realize-setup-sqlite-db-browser-01.JPG
-[setup13]: ../02_resources/images/realize-setup-sqlite-db-browser-02.JPG
-[setup13]: ../02_resources/images/realize-setup-sqlite-db-browser-03.JPG
+[setup14]: ../02_resources/images/realize-setup-sqlite-db-browser-01.JPG
+[setup15]: ../02_resources/images/realize-setup-sqlite-db-browser-02.JPG
+[setup16]: ../02_resources/images/realize-setup-sqlite-db-browser-03.JPG
 
 [sketch1]: ../02_resources/images/realize-design-sketch-directories.jpeg
