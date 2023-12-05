@@ -79,21 +79,10 @@
 ![codeblocks][setup11]
 ![codeblocks][setup12]
 ![codeblocks][setup13]  
-
-## Setup Download & install Sqlite [issue 9]
-* Downloaded the executable from 
-* Saved it to my local drive in "/c/local/sqlite" 
-* Once it finished I need to add its directory to the PATH environment variable. Doing this allows me to execute the binary E.g. gcc.exe without havibg ti specifiy it's directory location.  
-![codeblocks][setup7]
-![codeblocks][setup8]
-![codeblocks][setup9]
-![codeblocks][setup10]
-![codeblocks][setup11]
-
+ 
 ## Setup Download & install Sqlite [issue 13]
 * Downloaded the executable from 
 * Saved it to my local drive in "/c/local/sqlite" 
-* Once it finished I need to add its directory to the PATH environment variable. Doing this allows me to execute the binary E.g. gcc.exe without havibg ti specifiy it's directory location.  
 ![sqlite][setup14]
 ![sqlite][setup15]
 ![sqlite][setup16]
