@@ -70,8 +70,8 @@
 
 ## Setup Download & install codeblocks [issue 9]
 * Downloaded the executable from 
-* Saved it to my local drive & pressed execute  
-* Once it finished I need to add its directory to the PATH environment variable. Doing this allows me to execute the binary E.g. gcc.exe without havibg ti specifiy it's directory location.
+* Saved it to my local drive & pressed execute
+* Once it finished I need to add its directory to the PATH environment variable. Doing this allows me to execute the binary E.g. gcc.exe without havibg ti specifiy it's directory location.  
 ![codeblocks][setup7]
 ![codeblocks][setup8]
 ![codeblocks][setup9]
@@ -80,6 +80,23 @@
 ![codeblocks][setup12]
 ![codeblocks][setup13]  
 
+## Setup Download & install Sqlite [issue 9]
+* Downloaded the executable from 
+* Saved it to my local drive in "/c/local/sqlite" 
+* Once it finished I need to add its directory to the PATH environment variable. Doing this allows me to execute the binary E.g. gcc.exe without havibg ti specifiy it's directory location.  
+![codeblocks][setup7]
+![codeblocks][setup8]
+![codeblocks][setup9]
+![codeblocks][setup10]
+![codeblocks][setup11]
+
+## Setup Download & install Sqlite [issue 13]
+* Downloaded the executable from 
+* Saved it to my local drive in "/c/local/sqlite" 
+* Once it finished I need to add its directory to the PATH environment variable. Doing this allows me to execute the binary E.g. gcc.exe without havibg ti specifiy it's directory location.  
+![sqlite][setup14]
+![sqlite][setup15]
+![sqlite][setup16]
 
 # Downloads
 * **Drawio**
@@ -88,6 +105,10 @@
   * https://github.com/cli/cli/releases/download/v2.39.1/gh_2.39.1_windows_386.msi
 * **CodeBlocks**
   * https://www.fosshub.com/Code-Blocks.html?dwl=codeblocks-20.03mingw-setup.exe#
+* **SQLite Download Page** 
+  * https://www.sqlite.org/download.html
+* **SQLite DB Browser Download Page** 
+  * https://sqlitebrowser.org/dl/
 
 # References
 * How can I export GitHub issues to Excel? (2016, December 28). Stack Overflow. 
@@ -105,6 +126,9 @@
 * SQLite - Data Type. (n.d.). Tutorialspoint. 
   * Retrieved November 28, 2023, from
   * https://www.tutorialspoint.com/sqlite/sqlite_data_types.htm
+*  SQLite - C/C++. (n.d.). Tutorialspoint. 
+  * Retrieved December 5, 2023, from 
+  * https://www.tutorialspoint.com/sqlite/sqlite_c_cpp.htm
 * Install C/GCC Compiler for Windows. (2022, August 3). DigitalOcean. 
   * Retrieved December 3, 2023, from
   * https://www.digitalocean.com/community/tutorials/c-compiler-windows-gcc
@@ -122,6 +146,7 @@
 [issue 7]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/7
 [issue 8]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/8
 [issue 9]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/9
+[issue 13]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/13
 
 [issue 19]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/19
 [issue 20]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/20
@@ -140,5 +165,8 @@
 [setup11]: ../02_resources/images/realize-setup-codeblocks-path-02.JPG
 [setup12]: ../02_resources/images/realize-setup-codeblocks-path-03.JPG
 [setup13]: ../02_resources/images/realize-setup-codeblocks-path-04.JPG
+[setup13]: ../02_resources/images/realize-setup-sqlite-db-browser-01.JPG
+[setup13]: ../02_resources/images/realize-setup-sqlite-db-browser-02.JPG
+[setup13]: ../02_resources/images/realize-setup-sqlite-db-browser-03.JPG
 
 [sketch1]: ../02_resources/images/realize-design-sketch-directories.jpeg
