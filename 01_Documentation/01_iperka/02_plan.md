@@ -9,7 +9,7 @@
 
 ## Brainstorm
 * I thought about the typical phases and decided to use them in the assignment
-* On a long flight from London to San Francisco I made some notes
+* On a long flight from London to San Francisco I made some notes  
 ![Analyze][sketch1]
 ![Analyze][sketch2]
 ![Analyze][sketch3]
@@ -19,8 +19,7 @@ Because my time is quite limited I made a plan of my availability from the start
 * I defined a start and an end date for the assignment
 * I defined 3 preiods when I can perform work, nameley morning, afternoon & evenings
 * I marked out the periods when I planned to work on the assignment
-* I then calculated how much time (hours) I would have to deliver the assignment* I calculated the number of available hours
-
+* I then calculated how much time (hours) I would have to deliver the assignment* I calculated the number of available hours  
 ![Resource Plan][plan1]
 
 ## Using GitHub as a task list
@@ -75,7 +74,7 @@ I laid out 6 simple milestones
 [plan2]: ../02_resources/images/plan-milestones.JPG
 [plan3]: ../02_resources/images/plan-tasklist-01.JPG
 [plan4]: ../02_resources/images/plan-tasklist-02.JPG
-[plan5]: ../02_resources/images/plan-tasklist-02.JPG
+[plan5]: ../02_resources/images/plan-tasklist-03.JPG
 [plan6]: ../02_resources/images/plan-gantt-01.JPG
 [plan7]: ../02_resources/images/plan-check-progress-01.JPG
 
