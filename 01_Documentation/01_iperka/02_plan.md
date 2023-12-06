@@ -63,12 +63,21 @@ I laid out 6 simple milestones
 * As new tasks were identified these were also added to the list   
 ![Tasklist][plan5]
 
+## Checking my progress
+* I checked my progress as follows
+  * I calculated the time I has used (**Actual Effort**) and compared it to the **Estimated effort**
+  * In my case, on the 6th of December I had already spent 18.5 hours out of the 19.5 hours that I had budgeted
+  * I also checked the milestones  
+![Milestones][plan7]
+
+
 [plan1]: ../02_resources/images/plan-resource-plan.jpg
 [plan2]: ../02_resources/images/plan-milestones.JPG
 [plan3]: ../02_resources/images/plan-tasklist-01.JPG
 [plan4]: ../02_resources/images/plan-tasklist-02.JPG
 [plan5]: ../02_resources/images/plan-tasklist-02.JPG
 [plan6]: ../02_resources/images/plan-gantt-01.JPG
+[plan7]: ../02_resources/images/plan-check-progress-01.JPG
 
 [sketch1]: ../02_resources/images/analyze-plan-01.jpeg
 [sketch2]: ../02_resources/images/analyze-plan-02.jpeg
