@@ -87,10 +87,17 @@
 ![sqlite][setup15]
 ![sqlite][setup16]
 
-## Create hello-datatabas
-* Setup a datatbase
-* Write hello-database.c
-* 
+### Create the hello-datatabase
+* Setup a database by starting the SQLite Browser and performing the following steps:  
+![hello database][setup17]  
+![hello database][setup18]  
+![hello database][setup19]  
+
+### Write hello-database.c
+* Write hello-database.c (see repository)
+* Compile & run
+![hello database][setup20]  
+
 
 # Downloads
 * **Drawio**
@@ -166,5 +173,10 @@
 [setup14]: ../02_resources/images/realize-setup-sqlite-db-browser-01.JPG
 [setup15]: ../02_resources/images/realize-setup-sqlite-db-browser-02.JPG
 [setup16]: ../02_resources/images/realize-setup-sqlite-db-browser-03.JPG
+[setup17]: ../02_resources/images/realize-setup-hello-database-01.JPG
+[setup18]: ../02_resources/images/realize-setup-hello-database-02.JPG
+[setup19]: ../02_resources/images/realize-setup-hello-database-03.JPG
+[setup20]: ../02_resources/images/realize-implement-hello-database-01.JPG
+
 
 [sketch1]: ../02_resources/images/realize-design-sketch-directories.jpeg
