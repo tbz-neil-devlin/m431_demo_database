@@ -88,6 +88,12 @@
 ![sqlite][setup15]
 ![sqlite][setup16]
 
+
+### Test C compiler [issue 17]
+* Write hello-world.c (see repository)
+* Compile & run  
+![hello world][setup21]  
+
 ## Setup Test Sqlite [issue 18]
 ### Create the hello-datatabase
 * Setup a database by starting the DB Browser for Sqlite and performing the following steps:  
@@ -156,6 +162,7 @@
 [issue 9]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/9
 [issue 13]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/13
 
+[issue 17]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/17
 [issue 18]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/18
 [issue 19]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/19
 [issue 20]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/20
