@@ -87,6 +87,11 @@
 ![sqlite][setup15]
 ![sqlite][setup16]
 
+## Create hello-datatabas
+* Setup a datatbase
+* Write hello-database.c
+* 
+
 # Downloads
 * **Drawio**
   * https://github.com/jgraph/drawio-desktop/releases/download/v22.1.2/draw.io-22.1.2-windows-no-installer.exe
@@ -106,6 +111,9 @@
 * Managing your personal access tokens. (n.d.). GitHub Docs. 
   * Retrieved November 25, 2023, from 
   * https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic
+* Where does gcc look for C and C++ header files? (2008, December 5). Stack Overflow. 
+  * Retrieved December 9, 2023, from 
+  * https://stackoverflow.com/questions/344317/where-does-gcc-look-for-c-and-c-header-files
 * (n.d.). draw.io. 
   * Retrieved November 26, 2023, from 
   * https://www.drawio.com/
@@ -121,6 +129,7 @@
 * Install C/GCC Compiler for Windows. (2022, August 3). DigitalOcean. 
   * Retrieved December 3, 2023, from
   * https://www.digitalocean.com/community/tutorials/c-compiler-windows-gcc
+
 
 
 [design1]: ../02_resources/images/realize-design-database-schema.png
