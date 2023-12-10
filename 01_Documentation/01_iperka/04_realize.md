@@ -83,19 +83,22 @@
 ## Setup Download & install Sqlite [issue 13]
 * Downloaded the executable from 
 * Saved it to my local drive in "/c/local/sqlite"  
+* Installed DB Browser for Sqlite
 ![sqlite][setup14]
 ![sqlite][setup15]
 ![sqlite][setup16]
 
+## Setup Test Sqlite [issue 18]
 ### Create the hello-datatabase
-* Setup a database by starting the SQLite Browser and performing the following steps:  
+* Setup a database by starting the DB Browser for Sqlite and performing the following steps:  
 ![hello database][setup17]  
 ![hello database][setup18]  
 ![hello database][setup19]  
 
 ### Write hello-database.c
 * Write hello-database.c (see repository)
-* Compile & run
+* Encounted an issue with copiling, see [issue 39] for further info
+* Compile & run  
 ![hello database][setup20]  
 
 
@@ -153,9 +156,12 @@
 [issue 9]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/9
 [issue 13]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/13
 
+[issue 18]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/18
 [issue 19]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/19
 [issue 20]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/20
 [issue 21]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/21
+
+[issue 39]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/39
 
 [setup1]: ../02_resources/images/realize-setup-git-clone.JPG
 [setup2]: ../02_resources/images/realize-setup-git-directories-01.JPG
