@@ -11,7 +11,19 @@
 ![database][implement04]  
 ![database][implement05]  
 
-[issue 39]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/40
+## Implemnent word-picker.c function pickWord [issue 41]
+1. Using the flowchart from [issue 19] I began with coding.
+2. Encountered [issue 42], there were two issues, one was a syntax and the other a logica issue. 
+3. Encountered [issue 43], caused my referencing the wrong element in the array.
+4. Commited code: https://github.com/tbz-neil-devlin/m431_demo_database/commit/04fea157e097ec2f97a5b0c47c6d626b07df8983
+
+[issue 19]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/19
+
+
+[issue 40]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/40
+[issue 41]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/41
+[issue 42]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/42
+[issue 43]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/43
 
 
 [implement01]: ../02_resources/images/realize-implement-wordpicker-database-01.jpg
