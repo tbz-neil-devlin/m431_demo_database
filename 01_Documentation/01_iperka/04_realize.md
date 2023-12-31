@@ -82,11 +82,11 @@
  
 ## Setup Download & install Sqlite [issue 13]
 * Downloaded the executable from 
-* Saved it to my local drive in "/c/local/sqlite"  
-* Installed DB Browser for Sqlite
-![sqlite][setup14]
-![sqlite][setup15]
-![sqlite][setup16]
+* Saved it to my local drive in "/c/local/sqlite"
+* Installed DB Browser for Sqlite  
+![sqlite][setup14]  
+![sqlite][setup15]  
+![sqlite][setup16]  
 
 
 ### Test C compiler [issue 17]
