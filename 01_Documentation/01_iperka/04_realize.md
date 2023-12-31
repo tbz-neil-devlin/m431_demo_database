@@ -33,6 +33,10 @@
 
 ## Flowchart word picker [issue 19]
 * Flowchart was made with drawio  
+* 3 functions were identified
+  * pickWord: this is the main functions
+  * getRandomNr: this will generate a random number
+  * getWord: will fetch the word from the database  
 ![Word picker][design2]
 ## Flowchart create word database [issue 20]
 * Flowchart was made with drawio  
