@@ -2,15 +2,17 @@
 * A small assignment to set up a sqllite database and connect to it with C
 
 ## The product
-
+* product descriptipn
+* download
 
 ## Documentation
+The whole documentation can be found 
 * [inform]
 * [plan]
-* decide]
+* [design]
 * realize
   * [design]
-  " [setup]
+  * [setup]
   * [implement]
 * [control]
 * [assess]
