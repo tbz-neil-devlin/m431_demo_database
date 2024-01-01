@@ -1,6 +1,6 @@
 # Implement
 
-## Implement word-picker datatbase [issue 40]
+## Implement word-picker database [issue 40]
 1. Start the DB Browser for SQLite
 2. Create the database
 3. Create the table. Note, because I selected autoincrement a second table "sqlite_sequence" was automatically created. 
@@ -21,8 +21,13 @@
 ## Implement word-picker.c function getRandomNr [issue 45]
 1. Using the flowchart from [issue 19] I began with coding.
 2. Encountered [issue 44], an endless loop caused by not resetting a flag. 
-4. Commited code: https://github.com/tbz-neil-devlin/m431_demo_database/commit/56b5130c1abdc078ac11ad155a464d2bc619bd49  
+3. Commited code: https://github.com/tbz-neil-devlin/m431_demo_database/commit/56b5130c1abdc078ac11ad155a464d2bc619bd49  
 ![pickword][implement07]  
+
+## Implement word-picker.c function getRandomNr [issue 46]
+1. Using the flowchart from [issue 19] I began with coding.
+2. Commited code: https://github.com/tbz-neil-devlin/m431_demo_database/commit/8662b494762551c7965af35b914d7a730cf3f09b  
+![pickword][implement08]  
 
 [issue 19]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/19
 [issue 40]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/40
@@ -31,6 +36,8 @@
 [issue 43]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/43
 [issue 44]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/44
 [issue 45]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/45
+[issue 46]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/46
+
 
 [implement01]: ../02_resources/images/realize-implement-wordpicker-database-01.jpg
 [implement02]: ../02_resources/images/realize-implement-wordpicker-database-02.jpg
@@ -39,3 +46,4 @@
 [implement05]: ../02_resources/images/realize-implement-wordpicker-database-05.jpg
 [implement06]: ../02_resources/images/realize-implement-wordpicker-pickword-01.JPG
 [implement07]: ../02_resources/images/realize-implement-wordpicker-gerrandomnr-01.JPG
+[implement07]: ../02_resources/images/realize-implement-wordpicker-getword-01.JPG
