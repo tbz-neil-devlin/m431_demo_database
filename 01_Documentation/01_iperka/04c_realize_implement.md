@@ -46,4 +46,4 @@
 [implement05]: ../02_resources/images/realize-implement-wordpicker-database-05.jpg
 [implement06]: ../02_resources/images/realize-implement-wordpicker-pickword-01.JPG
 [implement07]: ../02_resources/images/realize-implement-wordpicker-gerrandomnr-01.JPG
-[implement07]: ../02_resources/images/realize-implement-wordpicker-getword-01.JPG
+[implement08]: ../02_resources/images/realize-implement-wordpicker-getword-01.JPG
