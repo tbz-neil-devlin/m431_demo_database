@@ -1,19 +1,69 @@
 //
 // Author: Neil Devlin
-// Version 1.0
+// Version 2.0
 //
 
 #include <stdio.h>
 #include <sqlite3.h> 
 #include <ctype.h> 
 #include <string.h> 
+#include <time.h> 
+#include <stdlib.h>
+#include<windows.h>
+#include<unistd.h>
+
 
 // Global variables
 int GLOBAL_MAX_TURNS = 5;
+int GLOBAL_ARRAY_NUMBERS_USED[] = {};
 
+// 
+// Args: the current turn (integer)
+// Returns: the random number (integer)
+// Description: Propt the user to play, if the yes selects y then it will call other functions
+//
+int getRandomNr(int LOCAL_CURRENT_TURN1 ) {
+   int LOCAL_RANDOM_NR;
+   int LOCAL_COUNTER = 0;
+   char *LOCAL_FOUND_NUMBER = "false";
+   char *LOCAL_NUMBER_USED = "false";
+   
+   // Elements in the array start at 0, therefore we need to decrease this 
+   int  LOCAL_ELEMENT_IN_ARRAY = LOCAL_CURRENT_TURN1 - 1;
 
-void getRandomNr( ) {
-   	fprintf(stdout, "Random Nr is 1\n");
+   // Loop for as long as no unused number has been found
+   while(strcmp(LOCAL_FOUND_NUMBER, "false") == 0 ) {
+      // reset some variables
+      LOCAL_RANDOM_NR = 99;
+	  LOCAL_NUMBER_USED = "false";
+
+	  // Generate a seed for the random number
+	  time_t LOCAL_PTR_TIME;
+	  srand( (unsigned) time(&LOCAL_PTR_TIME));
+	  
+	  // pick a random and add 1 to it so it is not 0
+      LOCAL_RANDOM_NR = rand() % GLOBAL_MAX_TURNS + 1;
+	  
+	  // Loop through the array & check if the number has already been used
+	  for ( LOCAL_COUNTER=0; LOCAL_COUNTER < LOCAL_ELEMENT_IN_ARRAY; LOCAL_COUNTER++) {
+		  if ( LOCAL_RANDOM_NR == GLOBAL_ARRAY_NUMBERS_USED[LOCAL_COUNTER] ) {
+			  // If it has already been used (in the array), then set this flag
+			  LOCAL_NUMBER_USED = "true";
+	  		  // fprintf(stdout, "GR1-ALREADY-USED: Array position: %d, id=%d\n", LOCAL_COUNTER, GLOBAL_ARRAY_NUMBERS_USED[LOCAL_COUNTER]);
+			  sleep(5);
+		  }
+	  }
+	  // Check if the flag has been set
+	  if ( strcmp(LOCAL_NUMBER_USED, "false" ) == 0 ) {
+		  // the flag was not set, therefore the number has not been used i.e. found
+		  LOCAL_FOUND_NUMBER = "true";
+	  }
+   }
+   // Append the array with the newly found number   
+   GLOBAL_ARRAY_NUMBERS_USED[LOCAL_ELEMENT_IN_ARRAY] = LOCAL_RANDOM_NR;
+
+   // Return this value
+   return LOCAL_RANDOM_NR;
 }
 
 void getWord( ) {
@@ -23,12 +73,14 @@ void getWord( ) {
 // 
 // Args: none
 // Returns: none
-// Description: Propt the user to play, if the yes selects y then it will call other functions
+// Description: Prompt the user to play, if the answer is yes then it will call other functions
 //
 void pickWord( ) {
    char *LOCAL_END_GAME = "false";
    char LOCAL_ARRAY_USER_INPUT[30];
    int LOCAL_CURRENT_TURN = 1;
+   int LOCAL_RANDOM_NUMBER;
+   int LOCAL_ELEMENT_IN_ARRAY;
 
    // Do a while loop as long as the LOCAL_END_GAME is false and the GLOBAL_MAX_TURNS is not exceeded
    // 
@@ -49,7 +101,9 @@ void pickWord( ) {
 	  }
       else {
 		 // answer was y, therefore play the game & increment the number turns taken
-	     getRandomNr();
+	     LOCAL_RANDOM_NUMBER = getRandomNr(LOCAL_CURRENT_TURN);
+ 		 fprintf(stdout, "Round: %d, id=%d\n", LOCAL_CURRENT_TURN,  LOCAL_RANDOM_NUMBER );
+
 		 getWord();
 		 LOCAL_CURRENT_TURN++;
       }
