@@ -1,6 +1,6 @@
 //
 // Author: Neil Devlin
-// Version 2.0
+// Version 3.0
 //
 
 #include <stdio.h>
@@ -14,8 +14,76 @@
 
 
 // Global variables
-int GLOBAL_MAX_TURNS = 5;
+int GLOBAL_MAX_TURNS;
 int GLOBAL_ARRAY_NUMBERS_USED[] = {};
+char *GLOBAL_WORD;
+
+// Set some global variables
+sqlite3 *GLOBAL_PTR_DATABASE;
+
+// The location for the word database
+char *GLOBAL_DB_FILE = "../db/word-picker.db";
+
+// The query to be performed
+char *GLOBAL_SQL_QUERY_NUM_ROWS = "select count(*) from T_WORDS";
+
+static int callBack(void *data, int argc, char **argv, char **azColName){
+   int i, tmp;
+   char *somePtr;
+ 
+   for(i = 0; i<argc; i++){
+	  GLOBAL_MAX_TURNS=strtol(argv[i], &somePtr, 10);
+   }
+   
+   return 0;
+}
+
+static int callBack2(void *data, int argc, char **argv, char **azColName){
+   int i;
+ 
+   for(i = 0; i<argc; i++){
+	  // printf("%s\n", argv[i]);
+	  GLOBAL_WORD = argv[i];
+	  printf("%s\n", GLOBAL_WORD);
+     }
+   
+   return 0;
+}
+
+void openDatabase( ) {
+   char *zErrMsg = 0;
+   int LOCAL_RETURN_CODE_DB;
+    
+   LOCAL_RETURN_CODE_DB = sqlite3_open(GLOBAL_DB_FILE, &GLOBAL_PTR_DATABASE);
+
+   printf("Using database %s \n", GLOBAL_DB_FILE);
+
+   if( LOCAL_RETURN_CODE_DB != 0 ) {
+      fprintf(stderr, "Cannot open database: %s\n", sqlite3_errmsg(GLOBAL_PTR_DATABASE));
+	  fprintf(stderr, "Exited with return code: %d\n", LOCAL_RETURN_CODE_DB);
+   }
+}
+
+// 
+// Args: none
+// Returns: none
+// Description: Run a query to count the number of rows in the db
+//
+void runQueryCountRows() {
+   int LOCAL_RETURN_CODE_QUERY;
+   char *zErrMsg = 0;
+   const char* data = " ";
+
+   /* Execute SQL statement */
+   LOCAL_RETURN_CODE_QUERY = sqlite3_exec(GLOBAL_PTR_DATABASE, GLOBAL_SQL_QUERY_NUM_ROWS, callBack, (void*)data, &zErrMsg);
+
+   if( LOCAL_RETURN_CODE_QUERY != 0 ) {
+      fprintf(stderr, "SQL error: %s\n", zErrMsg);
+	  fprintf(stderr, "Exited with return code: %d\n", LOCAL_RETURN_CODE_QUERY);
+      sqlite3_free(zErrMsg);
+   }
+}
+
 
 // 
 // Args: the current turn (integer)
@@ -66,8 +134,32 @@ int getRandomNr(int LOCAL_CURRENT_TURN1 ) {
    return LOCAL_RANDOM_NR;
 }
 
-void getWord( ) {
-   	fprintf(stdout, "Random word is boo! \n");
+// 
+// Args: the current turn (integer)
+// Returns: the random number (integer)
+// Description: Propt the user to play, if the yes selects y then it will call other functions
+//
+void getWord(int LOCAL_RANDOM_NUMBER ) {
+   int LOCAL_RETURN_CODE_QUERY;
+   char *zErrMsg = 0;
+   const char* data = " ";
+   char LOCAL_SQL_QUERY_GET_WORD[128]="SELECT word FROM t_words WHERE id=";
+   char LOCAL_RANDOM_NUMBER_STRING[4];
+   
+   // Convert the integer into a string
+   itoa(LOCAL_RANDOM_NUMBER, LOCAL_RANDOM_NUMBER_STRING, 10);
+
+   // Cocatenate the strings to make a query
+   strcat(LOCAL_SQL_QUERY_GET_WORD, LOCAL_RANDOM_NUMBER_STRING);
+
+   /* Execute SQL statement */
+   LOCAL_RETURN_CODE_QUERY = sqlite3_exec(GLOBAL_PTR_DATABASE, LOCAL_SQL_QUERY_GET_WORD, callBack2, (void*)data, &zErrMsg);
+
+   if( LOCAL_RETURN_CODE_QUERY != 0 ) {
+      fprintf(stderr, "SQL error: %s\n", zErrMsg);
+	  fprintf(stderr, "Exited with return code: %d\n", LOCAL_RETURN_CODE_QUERY);
+      sqlite3_free(zErrMsg);
+   }
 }
 
 // 
@@ -102,9 +194,10 @@ void pickWord( ) {
       else {
 		 // answer was y, therefore play the game & increment the number turns taken
 	     LOCAL_RANDOM_NUMBER = getRandomNr(LOCAL_CURRENT_TURN);
- 		 fprintf(stdout, "Round: %d, id=%d\n", LOCAL_CURRENT_TURN,  LOCAL_RANDOM_NUMBER );
 
-		 getWord();
+		 getWord(LOCAL_RANDOM_NUMBER);
+		 // fprintf(stdout, "Round: %d of %d the word is:%s\n", LOCAL_CURRENT_TURN, GLOBAL_MAX_TURNS, GLOBAL_WORD );
+
 		 LOCAL_CURRENT_TURN++;
       }
    }
@@ -124,7 +217,10 @@ void pickWord( ) {
 //
 void main( ) {
    
+   openDatabase();
+   runQueryCountRows();
+
    pickWord();
-   
+   sqlite3_close(GLOBAL_PTR_DATABASE);   
 }
 
