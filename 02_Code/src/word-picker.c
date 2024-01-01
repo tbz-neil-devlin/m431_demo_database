@@ -86,9 +86,11 @@ void runQueryCountRows() {
 
 
 // 
-// Args: the current turn (integer)
-// Returns: the random number (integer)
-// Description: Propt the user to play, if the yes selects y then it will call other functions
+//        Args: the current turn (integer)
+//      Return: the random number (integer)
+//
+// Description: Generates a unique random number no higher than GLOBAL_MAX_TURNS
+//              This number is then used to select the word from that database
 //
 int getRandomNr(int LOCAL_CURRENT_TURN1 ) {
    int LOCAL_RANDOM_NR;
@@ -135,9 +137,10 @@ int getRandomNr(int LOCAL_CURRENT_TURN1 ) {
 }
 
 // 
-// Args: the current turn (integer)
-// Returns: the random number (integer)
-// Description: Propt the user to play, if the yes selects y then it will call other functions
+//        Args: the random number (integer)
+//      Return: none
+// Description: Use the random number to build a select statement (query)
+//              Then execute the query and print it to stdout
 //
 void getWord(int LOCAL_RANDOM_NUMBER ) {
    int LOCAL_RETURN_CODE_QUERY;
@@ -163,8 +166,8 @@ void getWord(int LOCAL_RANDOM_NUMBER ) {
 }
 
 // 
-// Args: none
-// Returns: none
+//        Args: none
+//      Return: none
 // Description: Prompt the user to play, if the answer is yes then it will call other functions
 //
 void pickWord( ) {
