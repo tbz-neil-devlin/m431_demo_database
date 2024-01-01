@@ -30,7 +30,7 @@
 [issue 42]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/42
 [issue 43]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/43
 [issue 44]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/44
-
+[issue 45]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/45
 
 [implement01]: ../02_resources/images/realize-implement-wordpicker-database-01.jpg
 [implement02]: ../02_resources/images/realize-implement-wordpicker-database-02.jpg
@@ -38,4 +38,4 @@
 [implement04]: ../02_resources/images/realize-implement-wordpicker-database-04.jpg
 [implement05]: ../02_resources/images/realize-implement-wordpicker-database-05.jpg
 [implement06]: ../02_resources/images/realize-implement-wordpicker-pickword-01.JPG
-[implement07]: ../02_resources/images/realize-implement-wordpicker-getrandomnr-01.JPG
+[implement07]: ../02_resources/images/realize-implement-wordpicker-gerrandomnr-01.JPG
