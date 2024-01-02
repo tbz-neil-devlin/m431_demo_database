@@ -1,5 +1,15 @@
 # Implement
 
+## High level
+1. Implement the database with a limited amount of words
+2. Implement word-picker.c
+  * I decided to split the program into functions so it is manageable
+  * Write the pickWord function
+  * Write the getRandomNr function4. 
+  * Write the getWord function
+  * Write the setMeUp function
+
+
 ## Implement word-picker database [issue 40]
 1. Start the DB Browser for SQLite
 2. Create the database
@@ -29,6 +39,13 @@
 2. Commited code: https://github.com/tbz-neil-devlin/m431_demo_database/commit/8662b494762551c7965af35b914d7a730cf3f09b  
 ![pickword][implement08]  
 
+## Implement word-picker.c function setMeUp [issue 23]
+1. Using the flowchart from [issue 19] I began with coding.
+2. Merged the openDatabase function into the setMeUp
+2. Commited code: https://github.com/tbz-neil-devlin/m431_demo_database/commit/aabe1eaa0d3f83f5d3bca069e6b1576bdb04fb01   
+![pickword][implement09]  
+
+[issue 23]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/23
 [issue 19]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/19
 [issue 40]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/40
 [issue 41]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/41
@@ -47,3 +64,4 @@
 [implement06]: ../02_resources/images/realize-implement-wordpicker-pickword-01.JPG
 [implement07]: ../02_resources/images/realize-implement-wordpicker-gerrandomnr-01.JPG
 [implement08]: ../02_resources/images/realize-implement-wordpicker-getword-01.JPG
+[implement09]: ../02_resources/images/realize-implement-wordpicker-setmeup-01.JPG
