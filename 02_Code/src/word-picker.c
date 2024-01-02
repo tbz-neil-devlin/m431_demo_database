@@ -1,6 +1,6 @@
 //
 // Author: Neil Devlin
-// Version 3.0
+// Version 4.0
 //
 
 #include <stdio.h>
@@ -17,12 +17,15 @@
 int GLOBAL_MAX_TURNS;
 int GLOBAL_ARRAY_NUMBERS_USED[] = {};
 char *GLOBAL_WORD;
+char *GLOBAL_ENV_VARIABLE="M431_DATABASE_FILE";
+
 
 // Set some global variables
 sqlite3 *GLOBAL_PTR_DATABASE;
 
 // The location for the word database
-char *GLOBAL_DB_FILE = "../db/word-picker.db";
+char *GLOBAL_DEFAULT_DATABASE_FILE = "../db/word-picker.db";
+
 
 // The query to be performed
 char *GLOBAL_SQL_QUERY_NUM_ROWS = "select count(*) from T_WORDS";
@@ -50,23 +53,9 @@ static int callBack2(void *data, int argc, char **argv, char **azColName){
    return 0;
 }
 
-void openDatabase( ) {
-   char *zErrMsg = 0;
-   int LOCAL_RETURN_CODE_DB;
-    
-   LOCAL_RETURN_CODE_DB = sqlite3_open(GLOBAL_DB_FILE, &GLOBAL_PTR_DATABASE);
-
-   printf("Using database %s \n", GLOBAL_DB_FILE);
-
-   if( LOCAL_RETURN_CODE_DB != 0 ) {
-      fprintf(stderr, "Cannot open database: %s\n", sqlite3_errmsg(GLOBAL_PTR_DATABASE));
-	  fprintf(stderr, "Exited with return code: %d\n", LOCAL_RETURN_CODE_DB);
-   }
-}
-
 // 
-// Args: none
-// Returns: none
+//        Args: none
+//     Returns: none
 // Description: Run a query to count the number of rows in the db
 //
 void runQueryCountRows() {
@@ -84,6 +73,61 @@ void runQueryCountRows() {
    }
 }
 
+// 
+//        Args: none
+//     Returns: none
+// Description: Checks if an environment variable (M431_DATABASE_FILE) has been set
+//              If yes, then use the file that it points to as the database
+//              If no, then ask the user to supply a filenemt
+//              If no filename is provided, then assume a default
+//              Try to open the file (to make sure it exists
+//              Open the database
+//
+void setMeUp( ) {
+	char *LOCAL_DATABASE_FILE;
+	char *LOCAL_ENV_VARIABLE_VALUE;
+  	char LOCAL_USER_INPUT[255];
+	
+	char *zErrMsg = 0;
+    int LOCAL_RETURN_CODE_DB;
+	
+    // GGet the value of the environment variable
+	LOCAL_ENV_VARIABLE_VALUE=getenv(GLOBAL_ENV_VARIABLE);
+
+	if ( LOCAL_ENV_VARIABLE_VALUE != NULL ) {
+		LOCAL_DATABASE_FILE = LOCAL_ENV_VARIABLE_VALUE;
+    } else {
+        // Ask the user to supply the name of the database
+	    fprintf(stdout, "Please enter the full pathname of the database file (press enter to use the dfault database): ");
+	    LOCAL_DATABASE_FILE=gets(LOCAL_USER_INPUT);
+
+        // If the answer is empty (i.e. the user just pressed enter), then use a default database
+	    if ( strcmp(LOCAL_DATABASE_FILE, "") == 0 ) {
+		      LOCAL_DATABASE_FILE = GLOBAL_DEFAULT_DATABASE_FILE;
+        }
+	}
+	
+	// try to access the database file, if not successfull then exit
+    FILE *LOCAL_PTR_DATABASE_FILE=fopen(LOCAL_DATABASE_FILE, "r");
+    if (LOCAL_PTR_DATABASE_FILE != NULL) {
+		fprintf(stdout, "Using database %s\n", LOCAL_DATABASE_FILE);
+		fclose(LOCAL_PTR_DATABASE_FILE);
+	} else {
+		fprintf(stderr, "ERROR: Cannot access the file: %s\n", LOCAL_DATABASE_FILE);
+        exit(10);
+	}
+		
+  
+   LOCAL_RETURN_CODE_DB = sqlite3_open(LOCAL_DATABASE_FILE, &GLOBAL_PTR_DATABASE);
+
+   if( LOCAL_RETURN_CODE_DB != 0 ) {
+      fprintf(stderr, "Cannot open database: %s\n", sqlite3_errmsg(GLOBAL_PTR_DATABASE));
+	  fprintf(stderr, "Exited with return code: %d\n", LOCAL_RETURN_CODE_DB);
+	  exit(20);
+   }
+}	
+	
+	
 
 // 
 //        Args: the current turn (integer)
@@ -162,6 +206,7 @@ void getWord(int LOCAL_RANDOM_NUMBER ) {
       fprintf(stderr, "SQL error: %s\n", zErrMsg);
 	  fprintf(stderr, "Exited with return code: %d\n", LOCAL_RETURN_CODE_QUERY);
       sqlite3_free(zErrMsg);
+	  exit(30);
    }
 }
 
@@ -220,7 +265,7 @@ void pickWord( ) {
 //
 void main( ) {
    
-   openDatabase();
+   setMeUp();
    runQueryCountRows();
 
    pickWord();
