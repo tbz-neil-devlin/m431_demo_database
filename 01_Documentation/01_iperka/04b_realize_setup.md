@@ -93,7 +93,7 @@
 * SQLite - Data Type. (n.d.). Tutorialspoint. 
   * Retrieved November 28, 2023, from
   * https://www.tutorialspoint.com/sqlite/sqlite_data_types.htm
-*  SQLite - C/C++. (n.d.). Tutorialspoint. 
+* SQLite - C/C++. (n.d.). Tutorialspoint. 
   * Retrieved December 5, 2023, from 
   * https://www.tutorialspoint.com/sqlite/sqlite_c_cpp.htm
 * Install C/GCC Compiler for Windows. (2022, August 3). DigitalOcean. 
