@@ -57,7 +57,7 @@
 
 ## Implement create-word-database.c function setMeUp [issue 23]
 1. Using the flowchart from [issue 20] I began with coding.
-2. Commited code: https://github.com/tbz-neil-devlin/m431_demo_database/commit/aabe1eaa0d3f83f5d3bca069e6b1576bdb04fb01   
+2. Commited code: https://github.com/tbz-neil-devlin/m431_demo_database/commit/73c52b62220d747bf9b05718e5fb6b622ed01e7a  
 ![pickword][implement10]  
 
 
@@ -104,7 +104,7 @@
 
 
 [issue 23]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/23
-[issue 20]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/20
+[issue 22]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/22
 [issue 19]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/19
 [issue 40]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/40
 [issue 41]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/41
