@@ -8,6 +8,10 @@
   * Write the getRandomNr function4. 
   * Write the getWord function
   * Write the setMeUp function
+3. Implement create-word-database.c
+  * I decided to split the program into functions so it is manageable
+  * Write the setMeUp function
+
 
 
 ## Implement word-picker database [issue 40]
@@ -45,7 +49,62 @@
 2. Commited code: https://github.com/tbz-neil-devlin/m431_demo_database/commit/aabe1eaa0d3f83f5d3bca069e6b1576bdb04fb01   
 ![pickword][implement09]  
 
+## Implement word-picker.c function setMeUp [issue 23]
+1. Using the flowchart from [issue 19] I began with coding.
+2. Merged the openDatabase function into the setMeUp
+2. Commited code: https://github.com/tbz-neil-devlin/m431_demo_database/commit/aabe1eaa0d3f83f5d3bca069e6b1576bdb04fb01   
+![pickword][implement09]  
+
+## Implement create-word-database.c function setMeUp [issue 23]
+1. Using the flowchart from [issue 20] I began with coding.
+2. Commited code: https://github.com/tbz-neil-devlin/m431_demo_database/commit/aabe1eaa0d3f83f5d3bca069e6b1576bdb04fb01   
+![pickword][implement10]  
+
+
+# References
+* How to compare strings in an "if" statement? (2011, November 22). 
+  * Stack Overflow. 
+  * Retrieved December 31, 2023, 
+  * from https://stackoverflow.com/questions/8222495/how-to-compare-strings-in-an-if-statement
+* C tolower() - C Standard Library. (n.d.). 
+  * Programiz. 
+  * Retrieved December 31, 2023, 
+  * from https://www.programiz.com/c-programming/library-function/ctype.h/tolower
+* C library function - strcat(). (n.d.). 
+  * Tutorialspoint. 
+  * Retrieved January 1, 2024, 
+  * from https://www.tutorialspoint.com/c_standard_library/c_function_strcat.htm 
+* How can I convert an int to a string in C? (2011, November 24). 
+  * Stack Overflow. 
+  * Retrieved January 1, 2024, 
+  * from https://stackoverflow.com/questions/8257714/how-can-i-convert-an-int-to-a-string-in-c
+* C library function - getenv(). (n.d.). 
+  * Tutorialspoint. 
+  * Retrieved January 2, 2024, 
+  * from https://www.tutorialspoint.com/c_standard_library/c_function_getenv.htm
+* c - Use of exit() function. (2010, March 11). 
+  * Stack Overflow. 
+  * Retrieved January 2, 2024, 
+  * from https://stackoverflow.com/questions/2425167/use-of-exit-function
+* C File Exists Function. (n.d.). 
+  * Learn C Programming from Scratch. 
+  * Retrieved January 2, 2024, 
+  * from https://www.learnc.net/c-tutorial/c-file-exists/
+*  Williams, L. (2023, September 28). 10 deadliest insects: The most dangerous insects to humans - Discover Wildlife Deadliest insects in the world. 
+  * BBC Wildlife. 
+  * Retrieved January 4, 2024, 
+  * from https://www.discoverwildlife.com/animal-facts/insects-invertebrates/deadliest-insects
+
+
+
+
+
+
+
+
+
 [issue 23]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/23
+[issue 20]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/20
 [issue 19]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/19
 [issue 40]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/40
 [issue 41]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/41
@@ -65,3 +124,4 @@
 [implement07]: ../02_resources/images/realize-implement-wordpicker-gerrandomnr-01.JPG
 [implement08]: ../02_resources/images/realize-implement-wordpicker-getword-01.JPG
 [implement09]: ../02_resources/images/realize-implement-wordpicker-setmeup-01.JPG
+[implement10]: ../02_resources/images/realize-implement-create-word-db-setmeup-01.JPG
