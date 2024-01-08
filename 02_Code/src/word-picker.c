@@ -1,6 +1,6 @@
 //
 // Author: Neil Devlin
-// Version 4.0
+// Version 4.1
 //
 
 #include <stdio.h>
@@ -163,7 +163,6 @@ int getRandomNr(int LOCAL_CURRENT_TURN1 ) {
 		  if ( LOCAL_RANDOM_NR == GLOBAL_ARRAY_NUMBERS_USED[LOCAL_COUNTER] ) {
 			  // If it has already been used (in the array), then set this flag
 			  LOCAL_NUMBER_USED = "true";
-	  		  // fprintf(stdout, "GR1-ALREADY-USED: Array position: %d, id=%d\n", LOCAL_COUNTER, GLOBAL_ARRAY_NUMBERS_USED[LOCAL_COUNTER]);
 			  sleep(5);
 		  }
 	  }
@@ -218,6 +217,7 @@ void getWord(int LOCAL_RANDOM_NUMBER ) {
 void pickWord( ) {
    char *LOCAL_END_GAME = "false";
    char LOCAL_ARRAY_USER_INPUT[30];
+   char TMP;
    int LOCAL_CURRENT_TURN = 1;
    int LOCAL_RANDOM_NUMBER;
    int LOCAL_ELEMENT_IN_ARRAY;
@@ -228,13 +228,13 @@ void pickWord( ) {
 
       // Ask user if they want word, select only the first letter of their response
 	  fprintf(stdout, "Would you like to pick a word (y/n):");
-	  scanf("%1s", LOCAL_ARRAY_USER_INPUT);
+	  scanf("%s", LOCAL_ARRAY_USER_INPUT);
 	  
 	  // Convert the users reply into lowercase
 	  LOCAL_ARRAY_USER_INPUT[0] = tolower(LOCAL_ARRAY_USER_INPUT[0]);
 	  
 	  // Check if it is "y"
-	  if ( strcmp(LOCAL_ARRAY_USER_INPUT, "y") != 0 ) {
+	  if ( LOCAL_ARRAY_USER_INPUT[0] != 'y' ) {
 	     // answer was not y, therefore end the game, decrease the number of turns taken
 	     LOCAL_END_GAME = "true";
  		 LOCAL_CURRENT_TURN--;
@@ -244,7 +244,6 @@ void pickWord( ) {
 	     LOCAL_RANDOM_NUMBER = getRandomNr(LOCAL_CURRENT_TURN);
 
 		 getWord(LOCAL_RANDOM_NUMBER);
-		 // fprintf(stdout, "Round: %d of %d the word is:%s\n", LOCAL_CURRENT_TURN, GLOBAL_MAX_TURNS, GLOBAL_WORD );
 
 		 LOCAL_CURRENT_TURN++;
       }
