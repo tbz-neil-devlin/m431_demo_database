@@ -1,6 +1,6 @@
 bee
 wasp
-Mosquito 
+Mosquito
 Flea
 Assassin caterpillar
 Blister beetles
