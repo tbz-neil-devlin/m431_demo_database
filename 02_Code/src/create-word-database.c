@@ -1,6 +1,6 @@
 //
 // Author: Neil Devlin
-// Version 2.0
+// Version 3.0
 //
 
 #include <stdio.h>
@@ -27,8 +27,38 @@ char *GLOBAL_DEFAULT_TEXT_FILE = "../db/deadly-insects.txt";
 
 
 // The query to be performed
-char *GLOBAL_SQL_CREATE_TABLE = "create table T_WORDS {id INTEGER, word TEXT NOT NULL UNIQUE, PRIMARY KEY(id) AUTOINCREMENT}";
+char *GLOBAL_SQL_CREATE_TABLE = "create table T_WORDS ( id INTEGER, word TEXT NOT NULL UNIQUE, PRIMARY KEY(id AUTOINCREMENT) )";
 
+static int callBack1(void *data, int argc, char **argv, char **azColName){
+   int i;
+ 
+   for(i = 0; i<argc; i++){
+	  // printf("%s\n", argv[i]);
+	  printf("%s\n", argv[i]);
+     }
+   
+   return 0;
+}
+
+// 
+//        Args: none
+//     Returns: none
+// Description: Run a query to count the number of rows in the db
+//
+void createTable() {
+   int LOCAL_RETURN_CODE_QUERY;
+   char *zErrMsg = 0;
+   const char* data = " ";
+
+   /* Execute SQL statement */
+   LOCAL_RETURN_CODE_QUERY = sqlite3_exec(GLOBAL_PTR_DATABASE, GLOBAL_SQL_CREATE_TABLE, callBack1, (void*)data, &zErrMsg);
+
+   if( LOCAL_RETURN_CODE_QUERY != 0 ) {
+      fprintf(stderr, "SQL error: %s\n", zErrMsg);
+	  fprintf(stderr, "Exited with return code: %d\n", LOCAL_RETURN_CODE_QUERY);
+      sqlite3_free(zErrMsg);
+   }
+}
 
 // 
 //        Args: none
@@ -125,7 +155,13 @@ void setMeUp( ) {
 	  fprintf(stderr, "Exited with return code: %d\n", LOCAL_RETURN_CODE_DB);
 	  exit(12);
    }
+   
+   createTable();
+   
 }	
+
+
+
 
 void readAndInsert( ) {
     char LOCAL_LINE[255] = "";
