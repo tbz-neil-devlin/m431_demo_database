@@ -55,7 +55,7 @@
 2. Commited code: https://github.com/tbz-neil-devlin/m431_demo_database/commit/aabe1eaa0d3f83f5d3bca069e6b1576bdb04fb01   
 ![pickword][implement09]  
 
-## Implement create-word-database.c function setMeUp [issue 23]
+## Implement create-word-database.c function setMeUp [issue 22]
 1. Using the flowchart from [issue 20] I began with coding.
 2. Commited code: https://github.com/tbz-neil-devlin/m431_demo_database/commit/73c52b62220d747bf9b05718e5fb6b622ed01e7a  
 ![pickword][implement10]  
@@ -90,7 +90,7 @@
   * Learn C Programming from Scratch. 
   * Retrieved January 2, 2024, 
   * from https://www.learnc.net/c-tutorial/c-file-exists/
-*  Williams, L. (2023, September 28). 10 deadliest insects: The most dangerous insects to humans - Discover Wildlife Deadliest insects in the world. 
+* Williams, L. (2023, September 28). 10 deadliest insects: The most dangerous insects to humans - Discover Wildlife Deadliest insects in the world. 
   * BBC Wildlife. 
   * Retrieved January 4, 2024, 
   * from https://www.discoverwildlife.com/animal-facts/insects-invertebrates/deadliest-insects
