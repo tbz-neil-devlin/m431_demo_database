@@ -2,8 +2,25 @@
 * A small assignment to set up a sqllite database and connect to it with C
 
 ## The product
-* product descriptipn
-* download
+### product description
+* word-picker is a simple program that selects a word from a database
+* word-picker is ideal for generating random words to be used in other games of applications
+* features:
+  * The user can select the database to use
+  * the same word is not repeated within the same session
+  * runs on MS Windows 10
+  * Runs with SQLite databases
+* create-word-database is a simple program that takes a text file containing words and creates a database
+* create-word-database is ideal for generating random words to be used by word-picker
+* features:
+  * The user can select the text file to use
+  * the same word is not repeated in the database
+  * runs on MS Windows 10
+  * Runs with SQLite databases
+
+### Source Code
+
+### Download
 
 ## Documentation
 The whole documentation can be found 
