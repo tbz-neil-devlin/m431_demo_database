@@ -63,7 +63,7 @@
 ## Implement create-word-database.c function readAndInsert [issue 22]
 1. Using the flowchart from [issue 20] I began with coding.
 2. Commited code: https://github.com/tbz-neil-devlin/m431_demo_database/commit/73c52b62220d747bf9b05718e5fb6b622ed01e7a  
-![pickword][implement10]  
+![pickword][implement11]  
 
 ## Implement create-word-database.c function createTable [issue 48]
 1. Using the flowchart from [issue 20] I began with coding.
@@ -142,4 +142,4 @@
 [implement09]: ../02_resources/images/realize-implement-wordpicker-setmeup-01.JPG
 [implement10]: ../02_resources/images/realize-implement-create-word-db-setmeup-01.JPG
 [implement12]: ../02_resources/images/realize-implement-create-word-db-createtable-01.JPG
-[implement13]: ../02_resources/images/realize-implement-create-word-db-createtable-01.JPG
+[implement13]: ../02_resources/images/realize-implement-create-word-db-insertword-01.JPG
