@@ -141,5 +141,5 @@
 [implement08]: ../02_resources/images/realize-implement-wordpicker-getword-01.JPG
 [implement09]: ../02_resources/images/realize-implement-wordpicker-setmeup-01.JPG
 [implement10]: ../02_resources/images/realize-implement-create-word-db-setmeup-01.JPG
-[implement12]: ../02_resources/images/realize-implement-create-word-db-createtable-01.JPG
+[implement12]: ../02_resources/images/realize-implement-create-word-db-createtable-03.JPG
 [implement13]: ../02_resources/images/realize-implement-create-word-db-insertword-01.JPG
