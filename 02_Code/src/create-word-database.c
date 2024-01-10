@@ -1,8 +1,23 @@
 //
 // Author: Neil Devlin
-// Version 3.0
+// Version 4.0
 //
+// Description: A program that creates a database using a text file as input
+//              Asks the user for a database name and a test file.
+//              It then reads the file and perfoms the following checks
+//              Check that each word in the file only contains letters 8otherwise discard the word) 
+//              Checks that each word is between the limits for minimum & maximum number of letters
+//              Converts the word to lowercase
+//              Inserts the word into a database
+//
+//         Args:  none
+// Return codes:  0 success
+//               10 Database already exists
+//               11 Word file does not exist
+//               12 Cannot create database
+//               20 Cannot create table
 
+ 
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h> 
@@ -17,7 +32,10 @@ int GLOBAL_DEFAULT_WORD_LENGTH_MIN = 4;
 int GLOBAL_DEFAULT_WORD_LENGTH_MAX = 16;
 int GLOBAL_WORD_LENGTH_MIN;
 int GLOBAL_WORD_LENGTH_MAX;
-
+int GLOBAL_INSERTED = 0;
+int GLOBAL_DISCARDED_DUPLICATE = 0;
+int GLOBAL_DISCARDED_OTHER = 0;
+   
 // Set some global variables
 sqlite3 *GLOBAL_PTR_DATABASE;
 FILE *GLOBAL_PTR_TEXT_FILE;
@@ -55,8 +73,44 @@ void createTable() {
 
    if( LOCAL_RETURN_CODE_QUERY != 0 ) {
       fprintf(stderr, "SQL error: %s\n", zErrMsg);
-	  fprintf(stderr, "Exited with return code: %d\n", LOCAL_RETURN_CODE_QUERY);
+	  fprintf(stderr, "SQLite exited with return code: %d\n", LOCAL_RETURN_CODE_QUERY);
       sqlite3_free(zErrMsg);
+	  exit(20);
+   }
+}
+
+// 
+//        Args: the word to insert (char)
+//     Returns: none
+// Description: Inserts a word into the database
+//              Checks the output of the insert statement & increments a counter
+//
+void insertWord( char LOCAL_WORD_TO_INSERT[32] ) {
+   int LOCAL_RETURN_CODE_QUERY; 
+   char LOCAL_SQL_INSERT_WORD[128]="INSERT INTO T_WORDS (word) VALUES ('";
+   char *zErrMsg = 0;
+   const char* data = " ";
+
+   // Cocatenate the strings to make a query
+   strcat(LOCAL_SQL_INSERT_WORD, LOCAL_WORD_TO_INSERT);
+   strcat(LOCAL_SQL_INSERT_WORD, "')");  
+  
+   /* Execute SQL statement */
+   LOCAL_RETURN_CODE_QUERY = sqlite3_exec(GLOBAL_PTR_DATABASE, LOCAL_SQL_INSERT_WORD, callBack1, (void*)data, &zErrMsg);
+
+   if( LOCAL_RETURN_CODE_QUERY != 0 ) {
+      if ( LOCAL_RETURN_CODE_QUERY != 19 ) {
+		fprintf(stderr, "SQL error: %s\n", zErrMsg);
+		fprintf(stderr, "Exited with return code: %d\n", LOCAL_RETURN_CODE_QUERY);
+		sqlite3_free(zErrMsg);
+		GLOBAL_DISCARDED_OTHER++;
+		}
+	  else {
+		  GLOBAL_DISCARDED_DUPLICATE++;
+	  }
+   }
+   else { 
+	   GLOBAL_INSERTED++;
    }
 }
 
@@ -212,7 +266,7 @@ void readAndInsert( ) {
 	
 	   if ( strcmp(LOCAL_END_OF_LINE,  "true") == 0 ) {
 
-		   fprintf(stdout, "Valid word: %s\n", LOCAL_WORD_TO_INSERT);
+		   insertWord( LOCAL_WORD_TO_INSERT );
 		   LOCAL_NUMBER_LINES_VALID++;
 	   }
 	   
@@ -229,7 +283,9 @@ void readAndInsert( ) {
 	fprintf(stdout, "SUMMARY: Lines discarded (too long) : %d\n", LOCAL_DISCARD_TOO_LONG);
 	
 	fprintf(stdout, "SUMMARY: Lines valid                : %d\n", LOCAL_NUMBER_LINES_VALID);
-	
+	fprintf(stdout, "SUMMARY: Words discarded duplicate  : %d\n", GLOBAL_DISCARDED_DUPLICATE);
+	fprintf(stdout, "SUMMARY: Words discarded other      : %d\n", GLOBAL_DISCARDED_OTHER);
+	fprintf(stdout, "SUMMARY: Words inserted             : %d\n", GLOBAL_INSERTED);	
 }	
 	
 
