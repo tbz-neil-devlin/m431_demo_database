@@ -1,7 +1,21 @@
 //
 // Author: Neil Devlin
-// Version 4.1
+// Version 4.2
 //
+// Description: A program to pick a random word from a database
+//              Asks the user for a database name
+//              Gets the number of rows (words) from the database
+//              Asks the user if they want to pick a word 
+//              Generate a random number - making sure not to retuen a word that has already been used
+//              Select the word from the database
+//              Ask the user if they want another word
+//
+//         Args:  none
+// Return codes:  0 success
+//               10 Database file does not exist
+//               11 Cannot open database
+//               20 Cannot query the database (count rows)
+//               21 Cannot query the database (fetch word)
 
 #include <stdio.h>
 #include <sqlite3.h> 
@@ -70,6 +84,7 @@ void runQueryCountRows() {
       fprintf(stderr, "SQL error: %s\n", zErrMsg);
 	  fprintf(stderr, "Exited with return code: %d\n", LOCAL_RETURN_CODE_QUERY);
       sqlite3_free(zErrMsg);
+	  exit(29;
    }
 }
 
@@ -123,7 +138,7 @@ void setMeUp( ) {
    if( LOCAL_RETURN_CODE_DB != 0 ) {
       fprintf(stderr, "Cannot open database: %s\n", sqlite3_errmsg(GLOBAL_PTR_DATABASE));
 	  fprintf(stderr, "Exited with return code: %d\n", LOCAL_RETURN_CODE_DB);
-	  exit(20);
+	  exit(11);
    }
 }	
 	
@@ -205,7 +220,7 @@ void getWord(int LOCAL_RANDOM_NUMBER ) {
       fprintf(stderr, "SQL error: %s\n", zErrMsg);
 	  fprintf(stderr, "Exited with return code: %d\n", LOCAL_RETURN_CODE_QUERY);
       sqlite3_free(zErrMsg);
-	  exit(30);
+	  exit(21);
    }
 }
 
