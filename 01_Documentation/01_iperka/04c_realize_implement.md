@@ -60,7 +60,7 @@
 2. Commited code: https://github.com/tbz-neil-devlin/m431_demo_database/commit/73c52b62220d747bf9b05718e5fb6b622ed01e7a  
 ![pickword][implement10]  
 
-## Implement create-word-database.c function xxx [issue 22]
+## Implement create-word-database.c function readAndInsert [issue 22]
 1. Using the flowchart from [issue 20] I began with coding.
 2. Commited code: https://github.com/tbz-neil-devlin/m431_demo_database/commit/73c52b62220d747bf9b05718e5fb6b622ed01e7a  
 ![pickword][implement10]  
@@ -69,6 +69,11 @@
 1. Using the flowchart from [issue 20] I began with coding.
 2. Commited code: https://github.com/tbz-neil-devlin/m431_demo_database/commit/19f8d3a860442b71ef29812eed0bf9db02e93b7d  
 ![pickword][implement12]  
+
+## Implement create-word-database.c function insertWord [issue 49]
+1. Using the flowchart from [issue 20] I began with coding.
+2. Commited code: https://github.com/tbz-neil-devlin/m431_demo_database/commit/e48ffca1372c8446c3149ac05bf226a7397bc693  
+![pickword][implement13]  
 
 
 # References
@@ -124,7 +129,7 @@
 [issue 45]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/45
 [issue 46]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/46
 [issue 48]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/48
-
+[issue 49]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/49
 
 [implement01]: ../02_resources/images/realize-implement-wordpicker-database-01.jpg
 [implement02]: ../02_resources/images/realize-implement-wordpicker-database-02.jpg
@@ -136,4 +141,5 @@
 [implement08]: ../02_resources/images/realize-implement-wordpicker-getword-01.JPG
 [implement09]: ../02_resources/images/realize-implement-wordpicker-setmeup-01.JPG
 [implement10]: ../02_resources/images/realize-implement-create-word-db-setmeup-01.JPG
-[implement12]: ../02_resources/images/realize-implement-create-word-db-createtable-03.JPG
+[implement12]: ../02_resources/images/realize-implement-create-word-db-createtable-01.JPG
+[implement13]: ../02_resources/images/realize-implement-create-word-db-createtable-01.JPG
