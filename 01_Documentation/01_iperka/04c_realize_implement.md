@@ -11,6 +11,9 @@
 3. Implement create-word-database.c
   * I decided to split the program into functions so it is manageable
   * Write the setMeUp function
+  * Write the readAndInser function
+  * Write the insertWord function
+4. Create a long list of words
 
 
 
@@ -75,6 +78,11 @@
 2. Commited code: https://github.com/tbz-neil-devlin/m431_demo_database/commit/e48ffca1372c8446c3149ac05bf226a7397bc693  
 ![pickword][implement13]  
 
+## Implement create-word-database.c function insertWord [issue 37]
+1. I scanned a page from a book "Lawful Occasions", page 60.
+2. Using Linux & a "sed* commanc I converted all spaces into newlines "\n" thus creating a long list [many-words.txt].
+![pickword][implement14]  
+
 
 # References
 * How to compare strings in an "if" statement? (2011, November 22). 
@@ -109,10 +117,13 @@
   * BBC Wildlife. 
   * Retrieved January 4, 2024, 
   * from https://www.discoverwildlife.com/animal-facts/insects-invertebrates/deadliest-insects
+* Mac Kenzie, P. (1991). 
+  * Lawful Occasions. 
+  * Dufour Editions.
 
 
 
-
+[many-words.txt]: https://github.com/tbz-neil-devlin/m431_demo_database/blob/main/02_Code/db/many-words.txt
 
 
 
@@ -121,6 +132,8 @@
 [issue 23]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/23
 [issue 22]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/22
 [issue 19]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/19
+[issue 37]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/37
+
 [issue 40]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/40
 [issue 41]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/41
 [issue 42]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/42
