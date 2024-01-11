@@ -37,11 +37,17 @@
   * getRandomNr: this will generate a random number
   * getWord: will fetch the word from the database  
 ![Word picker][design2]
+
 ## Flowchart create word database [issue 20]
 * Flowchart was made with drawio  
 ![Word picker][design3]
+
+## Making sure no requirement has been forgotten
+* I reviewed the requirements again
+* I added a column "Implemented by" where I wrote how (or where) each requirement would be fulfilled  
+
 ## Design testcases [issue 7] & [issue 8]
-* I review the requirements that I made for the application
+* I reviewed the requirements that I made for the application (again)
 * based on the review I identified 3 testcases that could be used to test that the requirements had been implemented    
 ![test Matrix][design4]
 
