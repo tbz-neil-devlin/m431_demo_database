@@ -22,20 +22,22 @@
 
 # Test execution
 ## TC001
-* I executed the testcase & gathered the result
+* I executed the testcase & gathered the result  
 ![execute][execute01]  
 ![execute][execute02]  
 
 ## TC002 - Error handling part 1
-* I executed the testcase & gathered the result
+* I executed the testcase & gathered the result  
 ![execute][execute03]  
-![execute][execute04]  
 
 ## TC003 - Error handling part 2
-* I executed the testcase & encountered [issue50]
-* After resolving the issue I retested
+* I executed the testcase & encountered [issue50]   
 ![execute][execute05]  
 ![execute][execute06]  
+ 
+
+## TC003 - Retest
+* After resolving the issue I retested
 ![execute][execute07]  
 ![execute][execute08] 
 
@@ -51,7 +53,9 @@
 [execute06]: ../02_resources/images/control-execute-tc003-02.JPG
 [execute07]: ../02_resources/images/control-execute-tc003-03.JPG
 [execute08]: ../02_resources/images/control-execute-tc003-04.JPG
+
+[execute01]: ../02_resources/images/control-issue5-tc001-01.JPG
   
-[issue 50]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/50
+[issue50]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/50
 
   
