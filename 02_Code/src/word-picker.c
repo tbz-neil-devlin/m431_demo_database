@@ -1,6 +1,6 @@
 //
 // Author: Neil Devlin
-// Version 4.2
+// Version 4.3
 //
 // Description: A program to pick a random word from a database
 //              Asks the user for a database name
@@ -23,8 +23,8 @@
 #include <string.h> 
 #include <time.h> 
 #include <stdlib.h>
-#include<windows.h>
-#include<unistd.h>
+#include <windows.h>
+#include <unistd.h>
 
 
 // Global variables
@@ -81,10 +81,10 @@ void runQueryCountRows() {
    LOCAL_RETURN_CODE_QUERY = sqlite3_exec(GLOBAL_PTR_DATABASE, GLOBAL_SQL_QUERY_NUM_ROWS, callBack, (void*)data, &zErrMsg);
 
    if( LOCAL_RETURN_CODE_QUERY != 0 ) {
-      fprintf(stderr, "SQL error: %s\n", zErrMsg);
+      fprintf(stderr, "Cannot query the database, SQL error: %s\n", zErrMsg);
 	  fprintf(stderr, "Exited with return code: %d\n", LOCAL_RETURN_CODE_QUERY);
       sqlite3_free(zErrMsg);
-	  exit(29;
+	  exit(29);
    }
 }
 
@@ -217,7 +217,7 @@ void getWord(int LOCAL_RANDOM_NUMBER ) {
    LOCAL_RETURN_CODE_QUERY = sqlite3_exec(GLOBAL_PTR_DATABASE, LOCAL_SQL_QUERY_GET_WORD, callBack2, (void*)data, &zErrMsg);
 
    if( LOCAL_RETURN_CODE_QUERY != 0 ) {
-      fprintf(stderr, "SQL error: %s\n", zErrMsg);
+      fprintf(stderr, "Cannot query the database, SQL error: %s\n", zErrMsg);
 	  fprintf(stderr, "Exited with return code: %d\n", LOCAL_RETURN_CODE_QUERY);
       sqlite3_free(zErrMsg);
 	  exit(21);
