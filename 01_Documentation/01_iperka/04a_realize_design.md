@@ -46,7 +46,7 @@
 * I reviewed the requirements again
 * I added a column "Implemented by" where I wrote how (or where) each requirement would be fulfilled  
 
-## Design testcases [issue 7] & [issue 8]
+## Design testcases [issue 30] & [issue 31]
 * I reviewed the requirements that I made for the application (again)
 * based on the review I identified 3 testcases that could be used to test that the requirements had been implemented    
 ![test Matrix][design4]
@@ -70,7 +70,8 @@
 [issue 19]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/19
 [issue 20]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/20
 [issue 21]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/21
-
+[issue 30]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/30
+[issue 31]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/31
 [issue 39]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/39
 
 [setup1]: ../02_resources/images/realize-setup-git-clone.JPG
