@@ -11,14 +11,18 @@
 * I using the requirements list I tried to identify a testcases that when executed would check as many of the requirements as possible in one go
 * I identified three testcasea for word-picker.c
   * Testcase TC001: to test the main functions
-  * Testcase TC002: test test error handling  
-  * Testcase TC003: to test error handling when a worng file is pointed to
-* I identified three testcasea for create-word-database.c
-  * Testcase TC001: tests the handling of words that are too small ot big
-  * Testcase TC002: test the handling of words that contain special characters  
-  * Testcase TC003: ensures that all words are imported into the database  
+  * Testcase TC002: test test error handling & error handling when a worng file is pointed to   
 ![testcase][control01]  
 ![testcase][control02]  
+* I identified three testcasea for create-word-database.c
+  * Testcase TC003 tests:
+    * the handling of words that are too small ot big, 
+	* words that contain special characters and 
+	* ensures that all words are imported into the database  
+ * Testcase TC004 tests error handling:
+ 
+![testcase][control03]  
+![testcase][control04] 
 
 # Test execution
 ## Testing word-picker [issue34]
@@ -65,12 +69,16 @@
 # Checking the documentation
 * I revisited the documentation requirements
 * Beside each requirement I marked off what was done & where it could be found
-[protocol][documentation]
+![protocol][documentation]
  
 
 
 [control01]: ../02_resources/images/control-testcase-tc001.JPG
 [control02]: ../02_resources/images/control-testcase-tc002-tc003.JPG
+[control03]: ../02_resources/images/realize-implement-testcase-tc003.JPG
+[control04]: ../02_resources/images/realize-implement-testcase-tc004.JPG
+  
+
   
 [execute01]: ../02_resources/images/control-execute-tc001-01.jpg
 [execute02]: ../02_resources/images/control-execute-tc001-02.JPG
