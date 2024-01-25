@@ -86,13 +86,13 @@
 
 ## Implement testcases for word-picker [issue 32]
 1. Using the flowchart, the requirements and my initial test matrix I wrote the testcases.   
-![testcase][tesctase03]  
-![testcase][tesctase03]  
+![testcase][testcase01]  
+![testcase][testcase02]  
 
 ## Implement testcases for create-word-database [issue 33]
 1. Using the flowchart, the requirements and my initial test matrix I wrote the testcases.
-![testcase][tesctase03]  
-![testcase][tesctase03]  
+![testcase][testcase03]  
+![testcase][testcase04]  
 
 
 # References
