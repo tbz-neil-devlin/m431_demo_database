@@ -14,7 +14,8 @@
   * Write the readAndInser function
   * Write the insertWord function
 4. Create a long list of words
-
+5. Create testcases for word-picker
+6. Create testcases for create-word-database
 
 
 ## Implement word-picker database [issue 40]
@@ -78,10 +79,20 @@
 2. Commited code: https://github.com/tbz-neil-devlin/m431_demo_database/commit/e48ffca1372c8446c3149ac05bf226a7397bc693  
 ![pickword][implement13]  
 
-## Implement create-word-database.c function insertWord [issue 37]
+## Implement create a long list of words [issue 37]
 1. I scanned a page from a book "Lawful Occasions", page 60.
-2. Using Linux & a "sed* commanc I converted all spaces into newlines "\n" thus creating a long list [many-words.txt].
+2. Using Linux & a "sed* command I converted all spaces into newlines "\n" thus creating a long list [many-words.txt].
 ![pickword][implement14]  
+
+## Implement testcases for word-picker [issue 32]
+1. Using the flowchart, the requirements and my initial test matrix I wrote the testcases.   
+![testcase][tesctase03]  
+![testcase][tesctase03]  
+
+## Implement testcases for create-word-database [issue 33]
+1. Using the flowchart, the requirements and my initial test matrix I wrote the testcases.
+![testcase][tesctase03]  
+![testcase][tesctase03]  
 
 
 # References
@@ -132,6 +143,8 @@
 [issue 23]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/23
 [issue 22]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/22
 [issue 19]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/19
+[issue 32]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/32
+[issue 33]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/33
 [issue 37]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/37
 
 [issue 40]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/40
@@ -156,3 +169,8 @@
 [implement10]: ../02_resources/images/realize-implement-create-word-db-setmeup-01.JPG
 [implement12]: ../02_resources/images/realize-implement-create-word-db-createtable-03.JPG
 [implement13]: ../02_resources/images/realize-implement-create-word-db-insertword-01.JPG
+
+[testcase01}: ../02_resources/images/realize-implement-testcase-tc001.JPG
+[testcase02}: ../02_resources/images/realize-implement-testcase-tc002.JPG
+[testcase03}: ../02_resources/images/realize-implement-testcase-tc003.JPG
+[testcase04}: ../02_resources/images/realize-implement-testcase-tc004.JPG
