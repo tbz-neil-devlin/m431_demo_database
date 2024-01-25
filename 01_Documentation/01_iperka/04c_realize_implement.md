@@ -94,6 +94,14 @@
 ![testcase][testcase03]  
 ![testcase][testcase04]  
 
+## Issues encountered
+* [issue 39]  fatal error: sqlite3.h: No such file or directory 
+* [issue 42] word-picker.c endless loop when the user tries to end the game
+* [issue 43] word-picker.c - function pickWord - "Y" is not interpreted ay "y"
+* [issue 44] Implement word-picker.c function - getRandomNr has an endless loop
+* [issue 47] Entering yes terminates the game
+
+
 
 # References
 * How to compare strings in an "if" statement? (2011, November 22). 
@@ -134,6 +142,7 @@
 
 
 
+
 [many-words.txt]: https://github.com/tbz-neil-devlin/m431_demo_database/blob/main/02_Code/db/many-words.txt
 
 
@@ -146,7 +155,7 @@
 [issue 32]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/32
 [issue 33]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/33
 [issue 37]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/37
-
+[issue 39]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/39
 [issue 40]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/40
 [issue 41]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/41
 [issue 42]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/42
