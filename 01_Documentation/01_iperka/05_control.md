@@ -21,33 +21,35 @@
 ![testcase][control02]  
 
 # Test execution
-## TC001 word-picker functionality
+## Testing word-picker [issue34]
+### TC001 word-picker functionality
 * I executed the testcase & gathered the result  
 ![execute][execute01]  
 ![execute][execute02]  
 
-## TC002 - word-picker Error handling part 1
+### TC002 - word-picker Error handling part 1
 * I executed the testcase & gathered the result  
 ![execute][execute03]  
 
-## TC002 - word-picker Error handling part 2
+### TC002 - word-picker Error handling part 2
 * I executed the testcase & encountered [issue50]   
 ![execute][execute05]  
 ![execute][execute06]  
  
-## TC002 - Retest
+### TC002 - Retest
 * After resolving the issue 
 * I commited the code: https://github.com/tbz-neil-devlin/m431_demo_database/commit/8f1bfe582b79675c0a9ce2d575a2d8dc801e3011
 * I retested
 ![execute][execute07]  
 ![execute][execute08] 
 
-## TC003 create-word-database functionality
+## Testing create-word-database [issue35]
+### TC003 create-word-database functionality
 * I executed the testcase & gathered the result  
 ![execute][execute09]  
 ![execute][execute10]  
 
-## TC004 - create-word-database Error handling part 1
+### TC004 - create-word-database Error handling part 1
 * I executed the testcase & gathered the result  
 ![execute][execute11]  
 ![execute][execute12]  
@@ -69,7 +71,9 @@
 [execute11]: ../02_resources/images/control-execute-tc004-01.JPG
 [execute12]: ../02_resources/images/control-execute-tc004-02.JPG
 
- 
+
+[issue34]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/34
+[issue35]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/35
 [issue50]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/50
 
   
