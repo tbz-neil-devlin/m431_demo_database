@@ -54,10 +54,25 @@
 ![execute][execute11]  
 ![execute][execute12]  
 
+## Testprotpcol
+* The tests went smoothly and only one issue was found [issue50] 
+* The testprotocol is shown below
+![execute][protocol] 
+
+## Known issues - open
+* [issue50] Known issue - create-word-database.c no checks performed on min / max word length
+
+# Checking the documentation
+* I revisited the documentation requirements
+* Beside each requirement I marked off what was done & where it could be found
+[protocol][documentation]
+ 
+
+
 [control01]: ../02_resources/images/control-testcase-tc001.JPG
 [control02]: ../02_resources/images/control-testcase-tc002-tc003.JPG
   
-[execute01]: ../02_resources/images/control-execute-tc001-01.JPG
+[execute01]: ../02_resources/images/control-execute-tc001-01.jpg
 [execute02]: ../02_resources/images/control-execute-tc001-02.JPG
 [execute03]: ../02_resources/images/control-execute-tc002-01.JPG
 [execute04]: ../02_resources/images/control-execute-tc002-02.JPG
@@ -65,12 +80,13 @@
 [execute06]: ../02_resources/images/control-execute-tc003-02.JPG
 [execute07]: ../02_resources/images/control-execute-tc003-03.JPG
 [execute08]: ../02_resources/images/control-execute-tc003-04.JPG
-
 [execute09]: ../02_resources/images/control-execute-tc003a-01.JPG
-[execute10]: ../02_resources/images/control-execute-tc003b-02.JPG
+[execute10]: ../02_resources/images/control-execute-tc003a-02.JPG
 [execute11]: ../02_resources/images/control-execute-tc004-01.JPG
 [execute12]: ../02_resources/images/control-execute-tc004-02.JPG
 
+[protocol]: ../02_resources/images/control-testprotocol-01.JPG
+[documentation]: ../02_resources/images/control-documentation-01.JPG
 
 [issue34]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/34
 [issue35]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/35
