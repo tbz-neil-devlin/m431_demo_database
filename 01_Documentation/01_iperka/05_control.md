@@ -21,26 +21,36 @@
 ![testcase][control02]  
 
 # Test execution
-## TC001
+## TC001 word-picker functionality
 * I executed the testcase & gathered the result  
 ![execute][execute01]  
 ![execute][execute02]  
 
-## TC002 - Error handling part 1
+## TC002 - word-picker Error handling part 1
 * I executed the testcase & gathered the result  
 ![execute][execute03]  
 
-## TC003 - Error handling part 2
+## TC002 - word-picker Error handling part 2
 * I executed the testcase & encountered [issue50]   
 ![execute][execute05]  
 ![execute][execute06]  
  
-
-## TC003 - Retest
-* After resolving the issue I retested
+## TC002 - Retest
+* After resolving the issue 
+* I commited the code: https://github.com/tbz-neil-devlin/m431_demo_database/commit/8f1bfe582b79675c0a9ce2d575a2d8dc801e3011
+* I retested
 ![execute][execute07]  
 ![execute][execute08] 
 
+## TC003 create-word-database functionality
+* I executed the testcase & gathered the result  
+![execute][execute09]  
+![execute][execute10]  
+
+## TC004 - create-word-database Error handling part 1
+* I executed the testcase & gathered the result  
+![execute][execute11]  
+![execute][execute12]  
 
 [control01]: ../02_resources/images/control-testcase-tc001.JPG
 [control02]: ../02_resources/images/control-testcase-tc002-tc003.JPG
@@ -54,8 +64,12 @@
 [execute07]: ../02_resources/images/control-execute-tc003-03.JPG
 [execute08]: ../02_resources/images/control-execute-tc003-04.JPG
 
-[execute01]: ../02_resources/images/control-issue5-tc001-01.JPG
-  
+[execute09]: ../02_resources/images/control-execute-tc003a-01.JPG
+[execute10]: ../02_resources/images/control-execute-tc003b-02.JPG
+[execute11]: ../02_resources/images/control-execute-tc004-01.JPG
+[execute12]: ../02_resources/images/control-execute-tc004-02.JPG
+
+ 
 [issue50]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/50
 
   
