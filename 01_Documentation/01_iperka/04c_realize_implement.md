@@ -170,7 +170,7 @@
 [implement12]: ../02_resources/images/realize-implement-create-word-db-createtable-03.JPG
 [implement13]: ../02_resources/images/realize-implement-create-word-db-insertword-01.JPG
 
-[testcase01}: ../02_resources/images/realize-implement-testcase-tc001.JPG
-[testcase02}: ../02_resources/images/realize-implement-testcase-tc002.JPG
-[testcase03}: ../02_resources/images/realize-implement-testcase-tc003.JPG
-[testcase04}: ../02_resources/images/realize-implement-testcase-tc004.JPG
+[testcase01]: ../02_resources/images/realize-implement-testcase-tc001.JPG
+[testcase02]: ../02_resources/images/realize-implement-testcase-tc002.JPG
+[testcase03]: ../02_resources/images/realize-implement-testcase-tc003.JPG
+[testcase04]: ../02_resources/images/realize-implement-testcase-tc004.JPG
