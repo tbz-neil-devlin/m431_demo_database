@@ -1,5 +1,7 @@
 # Installation
-* Unzip word-picker.gz to a local directory
+* Download word-picker.tar.gz to a local directory
+* Untar the package
+> tar -xvzf word-picker.tar.gz
 
 # Create a list of words
 * Create a list of words in a text file and save it to the directory ./lists
@@ -17,7 +19,7 @@
 
 # Run word picker
 * Setting this variable will open the database without asking  
-> export M431_DATABASE_FILE="<mydatabase>"  
+> export M431_DATABASE_FILE="mydatabase"  
 > 
 > cd ./bin  
 > ./word-picker.exe  
