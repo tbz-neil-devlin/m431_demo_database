@@ -51,4 +51,4 @@ The whole documentation can be found
 [here1]: https://github.com/tbz-neil-devlin/m431_demo_database/tree/main/02_Code
 [here2]: https://github.com/tbz-neil-devlin/m431_demo_database/tree/main/02_Code/download
 
-[video]: .01_Documentation/02_resources/videos/full-demo.mp4
+[video]: ./01_Documentation/02_resources/videos/full-demo.mp4
