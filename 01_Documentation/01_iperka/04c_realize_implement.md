@@ -94,6 +94,17 @@
 ![testcase][testcase03]  
 ![testcase][testcase04]  
 
+## Implement testcases for create-word-database [issue 52]
+1. Created a download directory
+2. Created a directory structure in the download diretory (bin db lists)
+3. Copied word-picker.exe & create-word-database.exe to the bin directory
+4. Copied word-picker.db to the db directory
+5. Copied many-words.txt and deadly-insects.txt to lists
+6. Wrote the readme
+7. Tarred up the file
+![pickword][implement14]  
+
+
 ## Issues encountered
 * [issue 39]  fatal error: sqlite3.h: No such file or directory 
 * [issue 42] word-picker.c endless loop when the user tries to end the game
@@ -178,6 +189,7 @@
 [implement10]: ../02_resources/images/realize-implement-create-word-db-setmeup-01.JPG
 [implement12]: ../02_resources/images/realize-implement-create-word-db-createtable-03.JPG
 [implement13]: ../02_resources/images/realize-implement-create-word-db-insertword-01.JPG
+[implement14]: ../02_resources/images/realize-implement-wordpicker-download-01.JPG
 
 [testcase01]: ../02_resources/images/realize-implement-testcase-tc001.JPG
 [testcase02]: ../02_resources/images/realize-implement-testcase-tc002.JPG
