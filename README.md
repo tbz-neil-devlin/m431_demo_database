@@ -17,10 +17,14 @@
   * the same word is not repeated in the database
   * runs on MS Windows 10
   * Runs with SQLite databases
+* Watch the full demo 
+![video][video]
 
 ### Source Code
+* Source code can be found here [here1]
 
 ### Download
+The producd can be downloaded [here2]
 
 ## Documentation
 The whole documentation can be found 
@@ -43,3 +47,8 @@ The whole documentation can be found
 [implement]: https://github.com/tbz-neil-devlin/m431_demo_database/blob/main/01_Documentation/01_iperka/04c_realize_implement.md
 [control]: https://github.com/tbz-neil-devlin/m431_demo_database/blob/main/01_Documentation/01_iperka/05_control.md
 [assess]: https://github.com/tbz-neil-devlin/m431_demo_database/blob/main/01_Documentation/01_iperka/06_assess.md
+
+[here1]: https://github.com/tbz-neil-devlin/m431_demo_database/02_Code
+[here2]: https://github.com/tbz-neil-devlin/m431_demo_database/02_Code/download
+
+[video]: ../02_resources/videos/full-demo.mp4
