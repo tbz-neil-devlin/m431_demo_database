@@ -1,5 +1,5 @@
 # Installation
-* Unzip to a local directory
+* Unzip word-picker.gz to a local directory
 
 # Create a list of words
 * Create a list of words in a text file and save it to the directory ./lists
@@ -16,13 +16,10 @@
 > Please enter the full pathname of the text file: ../lists/myfile  
 
 # Run word picker
-
-#
-# Setting this variable will open the database without asking
-#
-export M431_DATABASE_FILE="<mydatabase>"
-
-cd ./bin
-./word-picker.exe
-Please enter the full pathname of the database file: ../db/<mydatabase>
+* Setting this variable will open the database without asking  
+> export M431_DATABASE_FILE="<mydatabase>"  
+> 
+> cd ./bin  
+> ./word-picker.exe  
+> Please enter the full pathname of the database file: ../db/mydatabase  
 
