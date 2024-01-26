@@ -1,6 +1,6 @@
 //
 // Author: Neil Devlin
-// Version 4.0
+// Version 4.1
 //
 // Description: A program that creates a database using a text file as input
 //              Asks the user for a database name and a test file.
@@ -41,7 +41,7 @@ sqlite3 *GLOBAL_PTR_DATABASE;
 FILE *GLOBAL_PTR_TEXT_FILE;
 
 // The location for the word file
-char *GLOBAL_DEFAULT_TEXT_FILE = "../db/deadly-insects.txt";
+char *GLOBAL_DEFAULT_TEXT_FILE = "../lists/deadly-insects.txt";
 
 
 // The query to be performed
@@ -216,7 +216,18 @@ void setMeUp( ) {
 
 
 
-
+// 
+//        Args: none
+//     Returns: none
+// Description: Reads each line of the text file
+//              Checks each character in the line 
+//              to make sure it is an alpha
+//              it convers the character to lowercase
+//              if the character is a \n (end of line), then it checks the whith of the word
+//              It either too short or too long then it is discarded
+//              otherwise it is inserted into the database
+//              Finally it provides a statistic on what it processed
+//
 void readAndInsert( ) {
     char LOCAL_LINE[255] = "";
 	char LOCAL_WORD_TO_INSERT[32];
