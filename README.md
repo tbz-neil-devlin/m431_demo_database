@@ -48,7 +48,7 @@ The whole documentation can be found
 [control]: https://github.com/tbz-neil-devlin/m431_demo_database/blob/main/01_Documentation/01_iperka/05_control.md
 [assess]: https://github.com/tbz-neil-devlin/m431_demo_database/blob/main/01_Documentation/01_iperka/06_assess.md
 
-[here1]: https://github.com/tbz-neil-devlin/m431_demo_database/02_Code
-[here2]: https://github.com/tbz-neil-devlin/m431_demo_database/02_Code/download
+[here1]: https://github.com/tbz-neil-devlin/m431_demo_database/tree/main/02_Code
+[here2]: https://github.com/tbz-neil-devlin/m431_demo_database/tree/main/02_Code/download
 
-[video]: ../02_resources/videos/full-demo.mp4
+[video]: .01_Documentation/02_resources/videos/full-demo.mp4
