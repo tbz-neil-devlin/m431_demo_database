@@ -18,7 +18,7 @@
   * runs on MS Windows 10
   * Runs with SQLite databases
 * Watch the full demo 
-![video][video]
+![video](./01_Documentation/02_resources/videos/full-demo.mp4)
 
 ### Source Code
 * Source code can be found here [here1]
@@ -51,4 +51,3 @@ The whole documentation can be found
 [here1]: https://github.com/tbz-neil-devlin/m431_demo_database/tree/main/02_Code
 [here2]: https://github.com/tbz-neil-devlin/m431_demo_database/tree/main/02_Code/download
 
-[video]: ./01_Documentation/02_resources/videos/full-demo.mp4
