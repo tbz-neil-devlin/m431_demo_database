@@ -1,14 +1,24 @@
 # Design
+
+# High Level
+1. Define the naming conventions
+2. Design the Github directory structure
+3. Design the database schema 
+4. Draw word-picker flowchart
+5. Draw create-word-database flowchart
+6. Design testcases
+
+
 ## Naming conventions [issue 5]
 ### Filenames
 * all lowercase
 * spaces represented by a hyphen "-"
 ### Directories
-* All lower case
+* All lowercase
 * spaces represented by an underscore "_"
 ### Variables
 * All uppercase
-* Global prdxided with GLOBAL
+* Global prefixed with GLOBAL
 * Local prefixed with LOCAL
 ### Functions
 * Camel case
@@ -23,11 +33,12 @@
 * colums
   * All lowercase
 
-## Directory structure [issue 4]
+## Github directory structure [issue 4]
 * Made a sletch of how the directory structure should be
 * ![sketch direcories][sketch1]
 
-## Database design [issue 21]
+## Database schema design [issue 21]
+* As there was only one table in the schema, this was quite easy
 * ![schema][design1]
 
 ## Flowchart word picker [issue 19]
@@ -39,7 +50,10 @@
 ![Word picker][design2]
 
 ## Flowchart create word database [issue 20]
-* Flowchart was made with drawio  
+* Flowchart was made with drawio
+* 2 functions were identified:
+  * createTable: creates the table  
+  * readAndInsert: reads the files, checks the word before insertin it into the database  
 ![Word picker][design3]
 
 ## Making sure no requirement has been forgotten
