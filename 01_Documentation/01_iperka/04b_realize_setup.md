@@ -150,7 +150,7 @@
 [setup18]: ../02_resources/images/realize-setup-hello-database-02.JPG
 [setup19]: ../02_resources/images/realize-setup-hello-database-03.JPG
 [setup20]: ../02_resources/images/realize-implement-hello-database-01.JPG
-[setup21]: ../02_resources/images/realize-implement-hello-world-01.JPG
+[setup21]: ../02_resources/images/realize-setup-hello-world-01.JPG
 
 [sketch1]: ../02_resources/images/realize-design-sketch-directories.jpeg
 
