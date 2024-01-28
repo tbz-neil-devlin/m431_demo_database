@@ -1,4 +1,4 @@
-## How I gathered my information
+## How I gathered the information needed for this assignment
 
 ## How did I get the idea
 * The idea was to write a C program that connects to a SQL database. What I then needed was a use case where such a function could be usefull. My thoughts turned to a list of words that could be used in a game such as "hangman".
@@ -10,7 +10,7 @@
   * I needed to know what exactly the product should be & how can I deliver it to the teacher
   * I needed to know what subjects I needed to write about, the format of the documentation & where it should be stored 
 * Knowledge
-  * As I has to read up on C & sqllite I would need some sort of tutorial
+  * As I would have to read up on C & sqllite I would need some sort of tutorial
 * Tools needed
   * I needed to find out what tools I would need to use (or download)
 
@@ -23,7 +23,7 @@
 ![requirements][product]
 
 ### Requirements for the Documentation
-* There was a long list of requirements concerning documentation, these would have to be considered in the implemantation
+* There was a long list of requirements concerning documentation, these would have to be considered in the implementation
 ![requirements][documentation]
 
 
@@ -34,19 +34,36 @@
   * An app that creates a database and an app that reads from that database
   * A set documentats that describe how I applied the IPERKA method to this assignment 
 * Tutorial needed
- * I list of tutorials that I found usefull
+  * I list of tutorials that I found usefull
 * Tools needed
- * Using the requirements lists & some research I identified a list of tools
+  * Using the requirements lists & some research I identified a list of tools
 
 ## Goals
 * Learn how to create a Gantt chart in GitHub
-  * Measrured by the presence of a chart
+  * Measrured by the presence of a chart that relates to the assignment
   * Acheivaable & realsitic
   * Timely: the chart must used throughout the assignment
 * Refresh my C skills
-  * Measrured by writing the code
+  * Measrured by writing the code that conforms to my requirements for the app
   * Acheivaable & realsitic
   * Timely: the code must be complete by the deadline
+
+## Tutorials
+* C Tutorial. (n.d.). W3Schools. 
+  * Retrieved November 18, 2024, 
+  * from https://www.w3schools.com/c/
+* C Tutorial. (n.d.). Tutorialspoint. 
+  * Retrieved November 22, 2023, 
+  * from https://www.tutorialspoint.com/cprogramming/index.htm
+* An Introduction To The SQLite C/C++ Interface. (2023, October 10). SQLite.
+  * Retrieved November 22, 2023, 
+  * from https://www.sqlite.org/cintro.html
+* The C language interface to SQLite Version 2. (2023, January 6). SQLite.
+  * Retrieved November 22, 2023,
+  * from https://www.sqlite.org/c_interface.html
+* SQLite - C/C++. (n.d.). Tutorialspoint. 
+  * Retrieved November 22, 2023, 
+  * from https://www.tutorialspoint.com/sqlite/sqlite_c_cpp.htm
 
 ## Tools needed
 * **A git commandline editor**
@@ -66,22 +83,7 @@
 * **A Database browser**
   * To be able to view that contacts of databases I would need some sort of database browser
 
-## Tutorials
-* C Tutorial. (n.d.). W3Schools. 
-  * Retrieved November 18, 2024, 
-  * from https://www.w3schools.com/c/
-* C Tutorial. (n.d.). Tutorialspoint. 
-  * Retrieved November 22, 2023, 
-  * from https://www.tutorialspoint.com/cprogramming/index.htm
-* An Introduction To The SQLite C/C++ Interface. (2023, October 10). SQLite.
-  * Retrieved November 22, 2023, 
-  * from https://www.sqlite.org/cintro.html
-* The C language interface to SQLite Version 2. (2023, January 6). SQLite.
-  * Retrieved November 22, 2023,
-  * from https://www.sqlite.org/c_interface.html
-* SQLite - C/C++. (n.d.). Tutorialspoint. 
-  * Retrieved November 22, 2023, 
-  * from https://www.tutorialspoint.com/sqlite/sqlite_c_cpp.htm
+
 
 ## References
 * “Git bash: Definition, commands, & getting started.” Atlassian, https://www.atlassian.com/git/tutorials/git-bash. Accessed 19 September 2023.
