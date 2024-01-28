@@ -1,5 +1,14 @@
 # Setup
-## Setup github directories [issue 6]
+# High level
+1. Create Github directory structure
+2. Install Github client
+2. Install drawio
+2. Install codeblocks
+2. Install SQLite
+2. Install DBbrowser for SQLite
+
+
+## Create github directory structure [issue 6]
 * Cloned the repository to my laptop
 * Using my design of the directory structure proceeded as follows: 
   * Created the directory structure with mkdir
@@ -13,18 +22,18 @@
 ![setup direcories][setup5]
 
 ## Setup github client
-* Downloaded the esecutable from
+* Downloaded the esecutable from [github]
 * Created a personal token following the instructions on (_Managing your personal access tokens_)
 * Added the token to my KeePass
-* Started gh on my laptop
-* ![github cli][setup6]
+* Started gh on my laptop  
+![github cli][setup6]
 
 ## Setup drawio
-* Downloaded the executable from 
+* Downloaded the executable from [drawio]
 * Saved it to my local drive
 
 ## Setup Download & install codeblocks [issue 9]
-* Downloaded the executable from 
+* Downloaded the executable from [codeblocks]
 * Saved it to my local drive & pressed execute
 * Once it finished I need to add its directory to the PATH environment variable. Doing this allows me to execute the binary E.g. gcc.exe without havibg ti specifiy it's directory location.  
 ![codeblocks][setup7]
@@ -36,9 +45,9 @@
 ![codeblocks][setup13]  
  
 ## Setup Download & install Sqlite [issue 13]
-* Downloaded the executable from 
+* Downloaded the executable from [sqlite]
 * Saved it to my local drive in "/c/local/sqlite"
-* Installed DB Browser for Sqlite  
+* Installed DB Browser for Sqlite [dbbrowser]
 ![sqlite][setup14]  
 ![sqlite][setup15]  
 ![sqlite][setup16]  
@@ -147,3 +156,10 @@
 
 
 [sketch1]: ../02_resources/images/realize-design-sketch-directories.jpeg
+
+
+[drawio]: https://github.com/jgraph/drawio-desktop/releases/download/v22.1.2/draw.io-22.1.2-windows-no-installer.exe
+[github]: https://github.com/cli/cli/releases/download/v2.39.1/gh_2.39.1_windows_386.msi
+[codeblocks]: https://www.fosshub.com/Code-Blocks.html?dwl=codeblocks-20.03mingw-setup.exe#
+[sqlite]: https://www.sqlite.org/download.html
+[dbbrowser]: https://sqlitebrowser.org/dl/
