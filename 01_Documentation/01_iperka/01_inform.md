@@ -1,4 +1,4 @@
-## How I gathered the information needed for this assignment
+# How I gathered the information needed for this assignment
 
 ## How did I get the idea
 * The idea was to write a C program that connects to a SQL database. What I then needed was a use case where such a function could be usefull. My thoughts turned to a list of words that could be used in a game such as "hangman".
