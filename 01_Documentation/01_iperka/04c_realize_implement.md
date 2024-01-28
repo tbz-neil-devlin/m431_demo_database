@@ -3,7 +3,7 @@
 ## High level
 1. Implement the database with a limited amount of words
 2. Implement word-picker.c
-  a. I decided to split the program into functions so it is manageable
+	a. I decided to split the program into functions so it is manageable
   b. Write the pickWord function
   c. Write the getRandomNr function4. 
   d. Write the getWord function
@@ -175,6 +175,7 @@
 [issue 44]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/44
 [issue 45]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/45
 [issue 46]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/46
+[issue 47]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/47
 [issue 48]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/48
 [issue 49]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/49
 [issue 52]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/52
