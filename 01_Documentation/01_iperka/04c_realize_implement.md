@@ -12,7 +12,7 @@
     * I decided to split the program into functions so it is manageable
     * Write the setMeUp function
     * Write the readAndInser function
-    d. Write the insertWord function
+    * Write the insertWord function
 4. Create a long list of words
 5. Create testcases for word-picker
 6. Create testcases for create-word-database
