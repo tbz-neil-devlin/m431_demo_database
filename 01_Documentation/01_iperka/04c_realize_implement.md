@@ -3,7 +3,7 @@
 ## High level
 1. Implement the database with a limited amount of words
 2. Implement word-picker.c
-	a. I decided to split the program into functions so it is manageable
+    a. I decided to split the program into functions so it is manageable
   b. Write the pickWord function
   c. Write the getRandomNr function4. 
   d. Write the getWord function
