@@ -5,8 +5,12 @@
 1. Review the product requirements
 2. Design testcases to make sure each requirement is tested
 3. Review the Documentation requirements
+4. Execute tests
+5. Code Review
+5. Documentation review
+5. Test summary
 
-# Designing a tests
+# Designing the testcases
 * Each requirement that I identified had to be tested, word-picker.c & create-word-database.c needed to be tested
 * I using the requirements list I tried to identify a testcases that when executed would check as many of the requirements as possible in one go
 * I identified three testcasea for word-picker.c
@@ -58,19 +62,26 @@
 ![execute][execute11]  
 ![execute][execute12]  
 
-## Testprotpcol
-* The tests went smoothly and only one issue was found [issue50] 
-* The testprotocol is shown below
-![execute][protocol] 
-
-## Known issues - open
-* [issue50] Known issue - create-word-database.c no checks performed on min / max word length
+# Code review
+* Having not done any C coding in decades I decided to send my code to a collauge - who is a full time developer, and ask him for feedback
+* His main critiques were
+  * **functions (methods):** In his opinion these are too long, a function should be as small as possible and if it becomes too ig, it too should b split up
+  * **naming conventions:**  In his opinion my naming concentiobns were suitable for Shell scripts, but not necessrily for C code
 
 # Checking the documentation
 * I revisited the documentation requirements
 * Beside each requirement I marked off what was done & where it could be found
 ![protocol][documentation]
+
+# Test summary
+## Testprotocol
+* The tests went smoothly and only one issue was found [issue50] 
+* The testprotocol is shown below
+![execute][protocol] 
  
+## Known issues - open
+* [issue50] Known issue - create-word-database.c no checks performed on min / max word length
+* [issue54] Known issue - word-picker.c is slow or appears to hang
 
 
 [control01]: ../02_resources/images/control-testcase-tc001.JPG
@@ -99,5 +110,5 @@
 [issue34]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/34
 [issue35]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/35
 [issue50]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/50
-
+[issue54]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/54
   
