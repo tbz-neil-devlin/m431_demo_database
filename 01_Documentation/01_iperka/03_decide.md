@@ -23,4 +23,4 @@
 * One of the main decision I had to make was whether to use a native C compiler or one that comes in an IDE. My main motivation was simplicity & system resources (or lack of). The matrix below shows how I made this decision.
 ![decision][decide01]
 
-[decide01]: ../02_resources/images/decide-decisionmatrix.jpg
+[decide01]: ../02_resources/images/decide-decisionmatrix.JPG
