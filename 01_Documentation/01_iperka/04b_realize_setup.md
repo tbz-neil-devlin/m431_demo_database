@@ -58,14 +58,14 @@
 ![hello world][setup21]  
 
 ## Setup Test Sqlite [issue 18]
-### Create the hello-datatabase https://github.com/tbz-neil-devlin/m431_demo_database/commit/b44d2abf9aaead8bddbb3bbb6a0ca66dbb25c630
+### Create the hello-datatabase 
 * Setup a database by starting the DB Browser for Sqlite and performing the following steps:  
 ![hello database][setup17]  
 ![hello database][setup18]  
 ![hello database][setup19]  
 
 ### Write hello-database.c
-* Write hello-database.c (see repository)
+* Write hello-database.c https://github.com/tbz-neil-devlin/m431_demo_database/commit/b44d2abf9aaead8bddbb3bbb6a0ca66dbb25c630
 * Encounted an issue with copiling, see [issue 39] for further info
 * Compile & run  
 ![hello database][setup20]  
@@ -116,7 +116,6 @@
 [design3]: ../02_resources/images/realize-design-flowchart-create-word-database.png
 [design4]: ../02_resources/images/realize-design-testcases.JPG
 
-
 [issue 4]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/4
 [issue 5]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/5
 [issue 6]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/6
@@ -124,13 +123,11 @@
 [issue 8]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/8
 [issue 9]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/9
 [issue 13]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/13
-
 [issue 17]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/17
 [issue 18]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/18
 [issue 19]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/19
 [issue 20]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/20
 [issue 21]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/21
-
 [issue 39]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/39
 
 [setup1]: ../02_resources/images/realize-setup-git-clone.JPG
@@ -153,7 +150,7 @@
 [setup18]: ../02_resources/images/realize-setup-hello-database-02.JPG
 [setup19]: ../02_resources/images/realize-setup-hello-database-03.JPG
 [setup20]: ../02_resources/images/realize-implement-hello-database-01.JPG
-
+[setup21]: ../02_resources/images/realize-implement-hello-world-01.JPG
 
 [sketch1]: ../02_resources/images/realize-design-sketch-directories.jpeg
 
