@@ -5,14 +5,14 @@
 2. Implement word-picker.c
     * I decided to split the program into functions so it is manageable
     * Write the pickWord function
-  c. Write the getRandomNr function4. 
-  d. Write the getWord function
-  e. Write the setMeUp function
+    * Write the getRandomNr function4. 
+    * Write the getWord function
+    * Write the setMeUp function
 3. Implement create-word-database.c
-  a. I decided to split the program into functions so it is manageable
-  b. Write the setMeUp function
-  c. Write the readAndInser function
-  d. Write the insertWord function
+    * I decided to split the program into functions so it is manageable
+    * Write the setMeUp function
+    * Write the readAndInser function
+    d. Write the insertWord function
 4. Create a long list of words
 5. Create testcases for word-picker
 6. Create testcases for create-word-database
