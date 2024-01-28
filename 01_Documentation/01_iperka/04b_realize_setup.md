@@ -47,18 +47,18 @@
 ## Setup Download & install Sqlite [issue 13]
 * Downloaded the executable from [sqlite]
 * Saved it to my local drive in "/c/local/sqlite"
-* Installed DB Browser for Sqlite [dbbrowser]
+* Installed DB Browser for Sqlite [dbbrowser]  
 ![sqlite][setup14]  
 ![sqlite][setup15]  
 ![sqlite][setup16]  
 
 ### Test C compiler [issue 17]
-* Write hello-world.c (see repository)
+* Write hello-world.c https://github.com/tbz-neil-devlin/m431_demo_database/commit/09624adbc2281d8ba58a85c4ba278e544fbb63c4
 * Compile & run  
 ![hello world][setup21]  
 
 ## Setup Test Sqlite [issue 18]
-### Create the hello-datatabase
+### Create the hello-datatabase https://github.com/tbz-neil-devlin/m431_demo_database/commit/b44d2abf9aaead8bddbb3bbb6a0ca66dbb25c630
 * Setup a database by starting the DB Browser for Sqlite and performing the following steps:  
 ![hello database][setup17]  
 ![hello database][setup18]  
