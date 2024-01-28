@@ -25,7 +25,7 @@ Because my time is quite limited I made a plan of my availability from the start
 ## Using GitHub as a task list
 * I decided to have my task list in github
 * I also decided to use GitHub's "Project" function to manage my assignment
-* In created a GitHum project called
+* In created a GitHub project called
 * I defined 4 fields
   * **Start**: The date when a given task can start
   * **Due**: The date upon whihc that task should finish
@@ -46,7 +46,7 @@ I laid out 6 simple milestones
   * estimate how many hours I would need, and then entered that value
   *	Using the resource plan I defined a date when it could start
   * I then gave it a due date
-* I then calculated the total number of hours required and made sure it was below  
+* I then calculated the total number of hours required and made sure it was below the maximum number of hours available (72) 
 ![Tasklist][plan3]
 ![Tasklist][plan4]
 
