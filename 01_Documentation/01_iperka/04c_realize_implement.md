@@ -94,7 +94,7 @@
 ![testcase][testcase03]  
 ![testcase][testcase04]  
 
-## Implement testcases for create-word-database [issue 52]
+## Package word-picker [issue 52]
 1. Created a download directory
 2. Created a directory structure in the download diretory (bin db lists)
 3. Copied word-picker.exe & create-word-database.exe to the bin directory
