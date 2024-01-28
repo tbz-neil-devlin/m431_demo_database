@@ -66,7 +66,7 @@
 
 ### Write hello-database.c
 * Write hello-database.c https://github.com/tbz-neil-devlin/m431_demo_database/commit/b44d2abf9aaead8bddbb3bbb6a0ca66dbb25c630
-* Encounted an issue with copiling, see [issue 39] for further info
+* Encounted an issue with compiling, see [issue 39] for further info
 * Compile & run  
 ![hello database][setup20]  
 

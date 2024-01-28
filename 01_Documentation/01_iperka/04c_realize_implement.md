@@ -3,19 +3,20 @@
 ## High level
 1. Implement the database with a limited amount of words
 2. Implement word-picker.c
-  * I decided to split the program into functions so it is manageable
-  * Write the pickWord function
-  * Write the getRandomNr function4. 
-  * Write the getWord function
-  * Write the setMeUp function
+  a. I decided to split the program into functions so it is manageable
+  b. Write the pickWord function
+  c. Write the getRandomNr function4. 
+  d. Write the getWord function
+  e. Write the setMeUp function
 3. Implement create-word-database.c
-  * I decided to split the program into functions so it is manageable
-  * Write the setMeUp function
-  * Write the readAndInser function
-  * Write the insertWord function
+  a. I decided to split the program into functions so it is manageable
+  b. Write the setMeUp function
+  c. Write the readAndInser function
+  d. Write the insertWord function
 4. Create a long list of words
 5. Create testcases for word-picker
 6. Create testcases for create-word-database
+7. List of issues encountered
 
 
 ## Implement word-picker database [issue 40]
@@ -154,7 +155,7 @@
 
 
 
-[many-words.txt]: https://github.com/tbz-neil-devlin/m431_demo_database/blob/main/02_Code/db/many-words.txt
+[many-words.txt]: https://github.com/tbz-neil-devlin/m431_demo_database/blob/main/02_Code/lists/many-words.txt
 
 
 
@@ -176,6 +177,7 @@
 [issue 46]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/46
 [issue 48]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/48
 [issue 49]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/49
+[issue 52]: https://github.com/tbz-neil-devlin/m431_demo_database/issues/52
 
 [implement01]: ../02_resources/images/realize-implement-wordpicker-database-01.jpg
 [implement02]: ../02_resources/images/realize-implement-wordpicker-database-02.jpg
