@@ -13,7 +13,7 @@
 * Using my design of the directory structure proceeded as follows: 
   * Created the directory structure with mkdir
   * Created empty files with touch
-  * Copied some excels & screenshots that I had already prepared into the direcories
+  * Copied some excels & screenshots that I had already prepared into the directories
   * Committed my changes & pushed to github  
 ![setup direcories][setup1]
 ![setup direcories][setup2]
@@ -22,7 +22,7 @@
 ![setup direcories][setup5]
 
 ## Setup github client
-* Downloaded the esecutable from [github]
+* Downloaded the executable from [github]
 * Created a personal token following the instructions on (_Managing your personal access tokens_)
 * Added the token to my KeePass
 * Started gh on my laptop  
@@ -35,7 +35,7 @@
 ## Setup Download & install codeblocks [issue 9]
 * Downloaded the executable from [codeblocks]
 * Saved it to my local drive & pressed execute
-* Once it finished I need to add its directory to the PATH environment variable. Doing this allows me to execute the binary E.g. gcc.exe without havibg ti specifiy it's directory location.  
+* Once it finished I need to add its directory to the PATH environment variable. Doing this allows me to execute the binary E.g. gcc.exe without having to specify it's directory location.  
 ![codeblocks][setup7]
 ![codeblocks][setup8]
 ![codeblocks][setup9]
@@ -58,7 +58,7 @@
 ![hello world][setup21]  
 
 ## Setup Test Sqlite [issue 18]
-### Create the hello-datatabase 
+### Create the hello-database 
 * Setup a database by starting the DB Browser for Sqlite and performing the following steps:  
 ![hello database][setup17]  
 ![hello database][setup18]  
@@ -66,7 +66,7 @@
 
 ### Write hello-database.c
 * Write hello-database.c https://github.com/tbz-neil-devlin/m431_demo_database/commit/b44d2abf9aaead8bddbb3bbb6a0ca66dbb25c630
-* Encounted an issue with compiling, see [issue 39] for further info
+* Encountered an issue with compiling, see [issue 39] for further info
 * Compile & run  
 ![hello database][setup20]  
 

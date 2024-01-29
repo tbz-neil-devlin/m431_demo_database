@@ -34,7 +34,7 @@
   * All lowercase
 
 ## Github directory structure [issue 4]
-* Made a sletch of how the directory structure should be
+* Made a sketch of how the directory structure should be
 * ![sketch direcories][sketch1]
 
 ## Database schema design [issue 21]
@@ -53,7 +53,7 @@
 * Flowchart was made with drawio
 * 2 functions were identified:
   * createTable: creates the table  
-  * readAndInsert: reads the files, checks the word before insertin it into the database  
+  * readAndInsert: reads the files, checks the word before inserting it into the database  
 ![Word picker][design3]
 
 ## Making sure no requirement has been forgotten

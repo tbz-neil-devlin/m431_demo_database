@@ -1,7 +1,7 @@
 # Control
 
 # How I checked & controlled this assignment
-## Highlevel steps
+## High level steps
 1. Review the product requirements
 2. Design testcases to make sure each requirement is tested
 4. Product testing
@@ -14,14 +14,14 @@
 * I using the requirements list I tried to identify a testcases that when executed would check as many of the requirements as possible in one go
 * I identified three testcasea for word-picker.c
   * Testcase TC001: to test the main functions
-  * Testcase TC002: test test error handling & error handling when a worng file is pointed to   
+  * Testcase TC002: test error handling & error handling when a wrong file is pointed to   
 ![testcase][control01]  
 ![testcase][control02]  
-* I identified three testcasea for create-word-database.c
+* I identified three testcases for create-word-database.c
   * Testcase TC003 tests:
-    * the handling of words that are too small ot big, 
+    * the handling of words that are too small or too big, 
 	* words that contain special characters and 
-	* ensures that all words are imported into the database  
+	* ensure that all words are imported into the database  
  * Testcase TC004 tests error handling:
  
 ![testcase][control03]  
@@ -45,7 +45,7 @@
  
 ### TC002 - Retest
 * After resolving the issue 
-* I commited the code: https://github.com/tbz-neil-devlin/m431_demo_database/commit/8f1bfe582b79675c0a9ce2d575a2d8dc801e3011
+* I committed the code: https://github.com/tbz-neil-devlin/m431_demo_database/commit/8f1bfe582b79675c0a9ce2d575a2d8dc801e3011
 * I retested
 ![execute][execute07]  
 ![execute][execute08] 
@@ -62,10 +62,10 @@
 ![execute][execute12]  
 
 # Code review
-* Having not done any C coding in decades I decided to send my code to a collauge - who is a full time developer, and ask him for feedback
+* Having not done any C coding in decades I decided to send my code to a colleague - who is a full time developer, and ask him for feedback
 * His main critiques were
   * **functions (methods):** In his opinion these are too long, a function should be as small as possible and if it becomes too big, it too should be split up
-  * **naming conventions:**  In his opinion my naming concentiobns were suitable for Shell scripts, but not necessrily for C code
+  * **naming conventions:**  In his opinion my naming conventions were suitable for Shell scripts, but not necessrily for C code
 
 # Checking the documentation
 * I revisited the documentation requirements
@@ -73,9 +73,9 @@
 ![protocol][documentation]
 
 # Test summary
-## Testprotocol
+## Test protocol
 * The tests went smoothly and only one issue was found [issue50] 
-* The testprotocol is shown below
+* The Test protocol is shown below
 ![execute][protocol] 
  
 ## Known issues - open

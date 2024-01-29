@@ -1,9 +1,9 @@
 # How I gathered the information needed for this assignment
 
 ## How did I get the idea
-* The idea was to write a C program that connects to a SQL database. What I then needed was a use case where such a function could be usefull. My thoughts turned to a list of words that could be used in a game such as "hangman".
+* The idea was to write a C program that connects to a SQL database. What I then needed was a use case where such a function could be useful. My thoughts turned to a list of words that could be used in a game such as "hangman".
 
-## What type of informtion did I need
+## What type of information did I need
 * Dates
   * I needed to know what dates & deadlines were important for my assignment
 * Deliverables
@@ -27,25 +27,25 @@
 ![requirements][documentation]
 
 
-## What type of informtion did I gather
+## What type of information did I gather
 * Dates
   * The submission date was 30 of January given by the teacher, therefore all work & checks must be finished by this date
 * Deliverables
   * An app that creates a database and an app that reads from that database
-  * A set documentats that describe how I applied the IPERKA method to this assignment 
+  * A set documents that describe how I applied the IPERKA method to this assignment 
 * Tutorial needed
-  * I list of tutorials that I found usefull
+  * I list of tutorials that I found useful
 * Tools needed
   * Using the requirements lists & some research I identified a list of tools
 
 ## Goals
 * Learn how to create a Gantt chart in GitHub
-  * Measrured by the presence of a chart that relates to the assignment
-  * Acheivaable & realsitic
+  * Measured by the presence of a chart that relates to the assignment
+  * Achievable  & realistic
   * Timely: the chart must used throughout the assignment
 * Refresh my C skills
-  * Measrured by writing the code that conforms to my requirements for the app
-  * Acheivaable & realsitic
+  * Measured by writing the code that conforms to my requirements for the app
+  * Achievable  & realistic
   * Timely: the code must be complete by the deadline
 
 ## Tutorials
@@ -67,13 +67,13 @@
 
 ## Tools needed
 * **A git commandline editor**
-  * To allow me to work on my PC and use git I dedided to use gig bash. "_Git Bash is an application for Microsoft Windows environments which provides an emulation layer for a Git command line experience_" (“What is Git Bash?”)
+  * To allow me to work on my PC and use git I decided to use gig bash. "_Git Bash is an application for Microsoft Windows environments which provides an emulation layer for a Git command line experience_" (“What is Git Bash?”)
 * **Source Code control**
-  * In order to manage my code and any artifacts that I would produce I needed a Source Code Control System. As I already use gitlab I decided to use this, what is gitlab: _"GitLab is an open source code repository and collaborative software development platform for large DevOps and DevSecOps projects. GitLab is free for individuals._" (“What is GitLab? | Definition from TechTarget”)
+  * In order to manage my code and any artefacts that I would produce I needed a Source Code Control System. As I already use gitlab I decided to use this, what is gitlab: _"GitLab is an open source code repository and collaborative software development platform for large DevOps and DevSecOps projects. GitLab is free for individuals._" (“What is GitLab? | Definition from TechTarget”)
 * **GitHub CLI**
   * Is a command line interface to GitHub, wasn't that usefull
 * **A tool to make screenshots**
-  * To capture schreenshots I decided to use Microsoft's Snipping tool
+  * To capture screenshots I decided to use Microsoft's Snipping tool
 * **An editor**
   * For editing files I decided to use Notepad++. "_Notepad++ is a free (as in “free speech” and also as in “free beer”) source code editor and Notepad replacement that supports several languages. Running in the MS Windows environment, its use is governed by GNU General Public License._" (“What is Notepad++”)
 * **A tool to make flowcharts**

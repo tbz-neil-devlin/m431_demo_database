@@ -1,8 +1,8 @@
 # Planning
 
 # How I planned this assignment
-## Highlevel steps
-1. Brainstom to identify milestones & tasks
+## High level steps
+1. Brainstorm to identify milestones & tasks
 2. Create a resource plan
 3. Create a list of milestones
 4. Create a task list
@@ -17,7 +17,7 @@
 ## Resource plan
 Because my time is quite limited I made a plan of my availability from the start to the end date
 * I defined a start and an end date for the assignment
-* I defined 3 preiods when I can perform work, nameley morning, afternoon & evenings
+* I defined 3 periods when I can perform work, namely morning, afternoon & evenings
 * I marked out the periods when I planned to work on the assignment
 * I then calculated how much time (hours) I would have to deliver the assignment* I calculated the number of available hours  
 ![Resource Plan][plan1]
@@ -28,7 +28,7 @@ Because my time is quite limited I made a plan of my availability from the start
 * In created a GitHub project called
 * I defined 4 fields
   * **Start**: The date when a given task can start
-  * **Due**: The date upon whihc that task should finish
+  * **Due**: The date upon which that task should finish
   * **Estimated effort**: The number of hours the task will required
   * **Actual effort**: The number of hours that were actually needed
 

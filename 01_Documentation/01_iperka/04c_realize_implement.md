@@ -32,57 +32,57 @@
 
 ## Implement word-picker.c function pickWord [issue 41]
 1. Using the flowchart from [issue 19] I began with coding.
-2. Encountered [issue 42], there were two issues, one was a syntax and the other a logica issue. 
+2. Encountered [issue 42], there were two issues, one was a syntax and the other a logical issue. 
 3. Encountered [issue 43], caused my referencing the wrong element in the array.
-4. Commited code: https://github.com/tbz-neil-devlin/m431_demo_database/commit/04fea157e097ec2f97a5b0c47c6d626b07df8983  
+4. Committed code: https://github.com/tbz-neil-devlin/m431_demo_database/commit/04fea157e097ec2f97a5b0c47c6d626b07df8983  
 ![pickword][implement06]  
 
 ## Implement word-picker.c function getRandomNr [issue 45]
 1. Using the flowchart from [issue 19] I began with coding.
 2. Encountered [issue 44], an endless loop caused by not resetting a flag. 
-3. Commited code: https://github.com/tbz-neil-devlin/m431_demo_database/commit/56b5130c1abdc078ac11ad155a464d2bc619bd49  
+3. Committed code: https://github.com/tbz-neil-devlin/m431_demo_database/commit/56b5130c1abdc078ac11ad155a464d2bc619bd49  
 ![pickword][implement07]  
 
 ## Implement word-picker.c function getRandomNr [issue 46]
 1. Using the flowchart from [issue 19] I began with coding.
-2. Commited code: https://github.com/tbz-neil-devlin/m431_demo_database/commit/8662b494762551c7965af35b914d7a730cf3f09b  
+2. Committed code: https://github.com/tbz-neil-devlin/m431_demo_database/commit/8662b494762551c7965af35b914d7a730cf3f09b  
 ![pickword][implement08]  
 
 ## Implement word-picker.c function setMeUp [issue 23]
 1. Using the flowchart from [issue 19] I began with coding.
 2. Merged the openDatabase function into the setMeUp
-2. Commited code: https://github.com/tbz-neil-devlin/m431_demo_database/commit/aabe1eaa0d3f83f5d3bca069e6b1576bdb04fb01   
+2. Committed code: https://github.com/tbz-neil-devlin/m431_demo_database/commit/aabe1eaa0d3f83f5d3bca069e6b1576bdb04fb01   
 ![pickword][implement09]  
 
 ## Implement word-picker.c function setMeUp [issue 23]
 1. Using the flowchart from [issue 19] I began with coding.
 2. Merged the openDatabase function into the setMeUp
-2. Commited code: https://github.com/tbz-neil-devlin/m431_demo_database/commit/aabe1eaa0d3f83f5d3bca069e6b1576bdb04fb01   
+2. Committed code: https://github.com/tbz-neil-devlin/m431_demo_database/commit/aabe1eaa0d3f83f5d3bca069e6b1576bdb04fb01   
 ![pickword][implement09]  
 
 ## Implement create-word-database.c function setMeUp [issue 22]
 1. Using the flowchart from [issue 20] I began with coding.
-2. Commited code: https://github.com/tbz-neil-devlin/m431_demo_database/commit/73c52b62220d747bf9b05718e5fb6b622ed01e7a  
+2. Committed code: https://github.com/tbz-neil-devlin/m431_demo_database/commit/73c52b62220d747bf9b05718e5fb6b622ed01e7a  
 ![pickword][implement10]  
 
 ## Implement create-word-database.c function readAndInsert [issue 22]
 1. Using the flowchart from [issue 20] I began with coding.
-2. Commited code: https://github.com/tbz-neil-devlin/m431_demo_database/commit/73c52b62220d747bf9b05718e5fb6b622ed01e7a  
+2. Committed code: https://github.com/tbz-neil-devlin/m431_demo_database/commit/73c52b62220d747bf9b05718e5fb6b622ed01e7a  
 ![pickword][implement11]  
 
 ## Implement create-word-database.c function createTable [issue 48]
 1. Using the flowchart from [issue 20] I began with coding.
-2. Commited code: https://github.com/tbz-neil-devlin/m431_demo_database/commit/19f8d3a860442b71ef29812eed0bf9db02e93b7d  
+2. Committed code: https://github.com/tbz-neil-devlin/m431_demo_database/commit/19f8d3a860442b71ef29812eed0bf9db02e93b7d  
 ![pickword][implement12]  
 
 ## Implement create-word-database.c function insertWord [issue 49]
 1. Using the flowchart from [issue 20] I began with coding.
-2. Commited code: https://github.com/tbz-neil-devlin/m431_demo_database/commit/e48ffca1372c8446c3149ac05bf226a7397bc693  
+2. Committed code: https://github.com/tbz-neil-devlin/m431_demo_database/commit/e48ffca1372c8446c3149ac05bf226a7397bc693  
 ![pickword][implement13]  
 
 ## Implement create a long list of words [issue 37]
 1. I scanned a page from a book "Lawful Occasions", page 60.
-2. Using Linux & a "sed* command I converted all spaces into newlines "\n" thus creating a long list [many-words.txt].
+2. Using Linux & a "sed" command I converted all spaces into newlines "\n" thus creating a long list [many-words.txt].
 ![pickword][implement14]  
 
 ## Implement testcases for word-picker [issue 32]
@@ -97,7 +97,7 @@
 
 ## Package word-picker [issue 52]
 1. Created a download directory
-2. Created a directory structure in the download diretory (bin db lists)
+2. Created a directory structure in the download directory (bin db lists)
 3. Copied word-picker.exe & create-word-database.exe to the bin directory
 4. Copied word-picker.db to the db directory
 5. Copied many-words.txt and deadly-insects.txt to lists
